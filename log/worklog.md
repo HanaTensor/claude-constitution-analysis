@@ -242,3 +242,43 @@ left to the client.
       none is expected
 - [ ] Then decide: write-up and deposit, and/or approach the AI constitutionalism
       community (`docs/03_prior_art/inventory.md` §6)
+
+---
+
+## 2026-08-24 (eighth) — F01 filed
+
+**[anthropics/claude-constitution#8](https://github.com/anthropics/claude-constitution/issues/8)**,
+opened by HanaTensor at 10:49 UTC. Body 4,198 characters, verified complete through the
+closing disclosure and its URL.
+
+The version-check required before posting was run the same day and passed: both source
+digests match `PROVENANCE.md`, all ten key provisions present in both versions, upstream
+unchanged since 2026-01-29.
+
+### The submission failed once first
+
+The web form returned a bare "Unable to create issue." Diagnosis, read-only: issue #7 had
+been opened by an external user three days earlier, so external filing was not blocked;
+the API rate limit was untouched; interaction limits were unreadable without admin. The
+leading hypothesis was a stale form token — the page had been open across a long
+exchange. **Reloading and re-pasting worked on the first attempt**, which confirms it.
+
+Worth remembering: GitHub returns the same generic error for expired forms, spam
+heuristics, and interaction limits. `gh issue create` returns the specific reason and is
+the faster diagnostic if it recurs.
+
+### State
+
+Everything planned is now done: repository public, release v1.0 with the PDF, X thread
+posted, issue filed.
+
+### What is left, and it is a decision rather than a task
+
+- **Do not wait for a reply.** `channel-assessment.md` gives the reasons.
+- The live question is whether to approach the AI constitutionalism community — the
+  Working Group's agenda (Lawfare) and Nick Caputo's *Model Constitution* — which is
+  where the four findings correspond to explicitly unaddressed points
+  (`docs/03_prior_art/inventory.md` §6).
+- A write-up and a Zenodo deposit remain optional and secondary to that.
+- F02 and F03 are `VERIFIED` but unfiled. Whether they warrant separate issues, given the
+  channel assessment, is undecided.

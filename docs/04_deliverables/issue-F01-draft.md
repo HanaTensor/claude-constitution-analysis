@@ -2,13 +2,14 @@
 
 **Destination**: https://github.com/anthropics/claude-constitution/issues
 **Poster**: Satoshi Hanamura, in person
-**State**: **Draft. Not posted.** F01 reached `VERIFIED` on 2026-08-24; the decision to
-post is Hanamura's.
+**State**: **POSTED 2026-08-24** as
+[anthropics/claude-constitution#8](https://github.com/anthropics/claude-constitution/issues/8).
+Body 4,198 characters, complete. The text below is the version filed.
 
 > **Expectations.** See [`channel-assessment.md`](channel-assessment.md). The repository
 > has had no commit since 2026-01-29, no Anthropic comment on any external issue, and
-> unmerged one-character typo fixes. **File this as a public, timestamped record — not as
-> delivery.** Do not sequence anything behind a reply.
+> unmerged one-character typo fixes. This was filed as a public, timestamped record —
+> **not as delivery**. Nothing is sequenced behind a reply.
 
 ## Rules for this draft
 

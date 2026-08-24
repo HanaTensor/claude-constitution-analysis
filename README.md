@@ -75,7 +75,9 @@ That is not evidence of novelty. It is evidence that there is somewhere to send 
 4. **Hanamura posts.** Nothing here is submitted automatically
 5. Whether to write this up and deposit it is decided after the issue draws a response
 
-F01 is at step 4. The draft is
+F01 completed step 4 on 2026-08-24 and was filed as
+[anthropics/claude-constitution#8](https://github.com/anthropics/claude-constitution/issues/8).
+The filed text is in
 [`docs/04_deliverables/issue-F01-draft.md`](docs/04_deliverables/issue-F01-draft.md).
 
 ## A note on versions
