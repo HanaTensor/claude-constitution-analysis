@@ -31,6 +31,8 @@
 | Oxford Ethics in AI, "Claude's new Constitution: two evaluative continua" | ブログ | https://www.oxford-aiethics.ox.ac.uk/blog/claudes-new-constitution-two-evaluative-continua |
 | BISI, "Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance" | レポート | https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance |
 | Anthropic, "Claude's new constitution" | 一次資料（解説） | https://www.anthropic.com/news/claude-new-constitution |
+| Shany et al., "In Claude We Trust? Stress Testing the AI Model's Constitution" | 上記 Oxford 論考の **Tech Policy Press 版（内容同一）** | https://www.techpolicy.press/in-claude-we-trust-stress-testing-the-ai-models-constitution/ |
+| arXiv:2604.02912 "Corporations Constitute Intelligence" | 2026年1月版憲法を「これまでで最も包括的な企業 AI 統治文書」と評価しつつ、軍事文脈の除外と民主的熟議の不在を批判 | https://arxiv.org/abs/2604.02912 |
 
 **2026-08-24 に全件確認済み。** 詳細は `verification-log.md`。
 
@@ -59,6 +61,19 @@
 本リポジトリの主張とは独立の事実であるが、**当該文書が既に高リスク環境で
 試されている**ことを示す文脈情報として記録する。
 
+## 4b. 責任ギャップの近年文献（2026-08-24 走査。**F01 の一般形が存在した**）
+
+| 文献 | 内容 | F01 との関係 |
+|---|---|---|
+| **arXiv:2510.14008** Stop Reducing Responsibility in LLM-Powered Multi-Agent Systems to Local Alignment | 局所的なエージェント単位のアラインメントから、系全体の agreement への転換を主張 | **F01 の一般形。引用義務あり。**ただし公開統治文書の条文分析なし、責任終端規則の定式化なし |
+| arXiv:2605.16300 Consent Chain Degradation in Embodied Multi-Agent Systems | 委任連鎖を通じた**同意**の劣化（CCD）、delegation drift | 機序は構造的に並行だが、**対象が同意であって責任ではない**（著者自身が responsibility gap と明示的に区別）。embodied robot 限定 |
+| arXiv:2503.13657 Why Do Multi-Agent LLM Systems Fail? | MAST（14 失敗モード／3 分類） | 経験的裏づけ。責任帰属・統治文書の議論なし |
+
+### 未走査
+
+- "Consent as a runtime safety constraint for LLM agents"（2605.16300 が引用）
+- MAST 14 モードの内訳（文脈劣化委任が明示的に含まれるか）
+
 ## 5. 実務者文献における既知性（重要）
 
 企業導入の文脈では、**文脈が劣化したサブエージェントによる事故は既知の運用課題**である。
@@ -70,18 +85,21 @@
 - <https://ccaf-exam.guide/docs/03-multi-agent-orchestration/>
 
 **これは F01 の新規性を部分的に削る。**
-F01 が主張するのは現象の発見ではなく、
-**当該統治文書がその現象を規律していないこと**である。この限定を崩してはならない。
+さらに §4b により、**一般形の学術的定式化も既に存在する**ことが判明した。
 
-## 3. 周辺（未読・要検討）
+F01 が主張できるのは、
+**当該統治文書の特定の二条文が、特定の条件下で合成できない**という条文レベルの具体例のみ。
+この限定を崩してはならない。
 
-| 出典 | URL |
-|---|---|
-| Rules, Cases, and Reasoning: Positivist Legal Theory as a Framework for Pluralistic AI Alignment | https://arxiv.org/pdf/2410.17271 |
-| AI Alignment at Your Discretion | https://arxiv.org/pdf/2502.10441 |
-| Corporations Constitute Intelligence | https://arxiv.org/pdf/2604.02912 |
-| AI Governance and Accountability: An Analysis of Anthropic's Claude | https://arxiv.org/pdf/2407.01557 |
-| Adversarial Thermodynamics | https://arxiv.org/html/2510.08298 |
+## 3. 周辺文献（2026-08-24 走査済み）
+
+| 出典 | 内容 | F01 への影響 |
+|---|---|---|
+| arXiv:2410.17271 Rules, Cases, and Reasoning | 法実証主義（一般規則と事例の相互作用）をアラインメントの枠組みに | 憲法条文の分析なし。**影響なし** |
+| arXiv:2502.10441 AI Alignment at Your Discretion | アノテーターの裁量（alignment discretion）の測定 | 多エージェント・責任帰属の議論なし。**影響なし** |
+| arXiv:2604.02912 Corporations Constitute Intelligence | 2026年1月版憲法の分析。軍事文脈の除外＝accountability gap を指摘 | **当該文書の分析としては §2 へ移動**。ただし多エージェント・委任連鎖の議論なし |
+| arXiv:2407.01557 AI Governance and Accountability | NIST AI RMF / EU AI Act の観点。2024年5月提出 | **対象が旧版**。多エージェント・責任帰属の議論なし。影響なし |
+| arXiv:2510.08298 Adversarial Thermodynamics | 仕事抽出を敵対ゲームとして定式化（熱力学 → 意思決定理論の向き） | プリンシパル＝エージェント理論、Borch の定理、エージェンシーコスト＝エントロピー生成のいずれにも**言及なし**。枠組み D の先行ではない |
 
 ## 4. 検索で先行を確認できなかったもの
 

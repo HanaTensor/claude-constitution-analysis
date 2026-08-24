@@ -68,12 +68,14 @@ attribution rule, it concerns Anthropic's exposure rather than an answer owed to
 affected third party, and in the failure case above it never engages — no single
 instance foresees the harm from its own partial context.
 
-**Relation to existing critique.** Shany et al. (Oxford, March 2026) raise an
-accountability gap in which humans blame outcomes on the AI. The direction here is the
-opposite: responsibility does not reach any terminus at all, human or otherwise. The
-operational hazard itself — subagents acting on degraded context — is well known in
-practitioner guidance; what seems absent is any provision in this document addressing
-where responsibility lands when it occurs.
+**Relation to existing work.** The general point — that summed local alignment does not
+constitute system-level responsibility — is already made in the literature (e.g.
+arXiv:2510.14008). The operational hazard, subagents acting on degraded context, is
+well known in practitioner guidance. Neither examines the text of a published
+governance document, and neither states where responsibility terminates. This report
+claims only the textual gap. It is also distinct from the accountability gap raised by
+Shany et al. (Oxford / Tech Policy Press, March 2026), where humans deflect blame onto
+the AI; here responsibility reaches no terminus at all, human or otherwise.
 
 **Draft language** (offered only as a starting point):
 
@@ -94,11 +96,17 @@ are identical in the two versions.
 - [x] R1（liability harms）への応答を本文に反映済み
 - [x] 補助ガイドラインが未公表であることを確認済み
 - [x] Shany et al. との差分を本文に明示済み
-- [ ] `inventory.md` §3 の arXiv 5 件を走査
-- [ ] Tech Policy Press 掲載版の確認
+- [x] `inventory.md` §3 の arXiv 5 件を走査（2026-08-24）
+- [x] Tech Policy Press 掲載版の確認 → Oxford ブログ版と同一
+- [x] 一般形（arXiv:2510.14008）を引用し、自らの主張範囲を本文で限定済み
 - [ ] 引用が最新版と一致していることを再確認（**投稿当日に `tools/compare_versions.sh` を実行**）
 
 ## 語数
 
-現行草案の本文は約 430 語。400 語をやや超える。
-投稿時に Scope 段落を圧縮するか、そのまま出すかは Hanamura の判断。
+現行草案の本文は約 470 語。当初目安の 400 語を超えている。
+
+超過分は「先行研究への言及」と「主張範囲の限定」であり、**削らないほうがよい**と考える。
+一般形（arXiv:2510.14008）を引かずに出すと、既知の主張を自らの発見として述べたことになる。
+圧縮するなら Failure case の記述であって、Relation to existing work ではない。
+
+最終判断は Hanamura。
