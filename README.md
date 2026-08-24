@@ -37,7 +37,7 @@ Keeping novelty claims separate from restatement is the governing principle here
 | `docs/01_findings/` | Findings, one per file. Each opens with its **Status** |
 | `docs/02_frameworks/` | The four reading frameworks. **Method, not claim** |
 | `docs/03_prior_art/` | Prior-art inventory and the verification log |
-| `docs/04_deliverables/` | Draft GitHub issue; draft note |
+| `docs/04_deliverables/` | Draft GitHub issue, X announcement, and the channel assessment |
 | `sources/` | The original document, versioned, with provenance and hashes |
 | `tools/` | Fetch and comparison scripts (for reproduction) |
 | `log/worklog.md` | Work log |
@@ -87,6 +87,12 @@ trained-on version **within 90 days**.
 Every citation here therefore names a version. Retrieval dates, URLs, and SHA-256
 digests are recorded in `sources/PROVENANCE.md`. Run `tools/compare_versions.sh`
 before relying on any quotation.
+
+## PDF
+
+A single-file build of everything here is attached to
+[release v1.0](https://github.com/HanaTensor/claude-constitution-analysis/releases/tag/v1.0)
+(32 pp, A4). Rebuild with `tools/build_pdf.sh` (requires pandoc and tectonic).
 
 ## Authorship
 
