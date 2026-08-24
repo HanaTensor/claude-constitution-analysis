@@ -88,6 +88,14 @@ Every citation here therefore names a version. Retrieval dates, URLs, and SHA-25
 digests are recorded in `sources/PROVENANCE.md`. Run `tools/compare_versions.sh`
 before relying on any quotation.
 
+## Authorship
+
+This analysis was produced in collaboration between Satoshi Hanamura and Claude
+(Anthropic, Opus 5). **The subject of the analysis is Claude's own constitution, and much
+of the analysis was performed by Claude.** The division of work, the disclosure that
+follows from it, and the safeguards used are set out in
+[`ACKNOWLEDGEMENTS.md`](ACKNOWLEDGEMENTS.md).
+
 ## Language
 
 English is the source of truth. An earlier Japanese edition of every document remains
