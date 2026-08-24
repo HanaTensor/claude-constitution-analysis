@@ -5,6 +5,11 @@
 **State**: **Draft. Not posted.** F01 reached `VERIFIED` on 2026-08-24; the decision to
 post is Hanamura's.
 
+> **Expectations.** See [`channel-assessment.md`](channel-assessment.md). The repository
+> has had no commit since 2026-01-29, no Anthropic comment on any external issue, and
+> unmerged one-character typo fixes. **File this as a public, timestamped record — not as
+> delivery.** Do not sequence anything behind a reply.
+
 ## Rules for this draft
 
 - **No theoretical apparatus.** Thermodynamics, Borch, metabolic control analysis, the

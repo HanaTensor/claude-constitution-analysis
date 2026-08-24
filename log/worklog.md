@@ -176,3 +176,30 @@ the F02 error is preserved deliberately.
 - [ ] Produce the PDF
 - [ ] Draft the X announcement (**Hanamura posts**)
 - [ ] Decide whether to post the F01 issue
+
+---
+
+## 2026-08-24 (sixth) — Channel assessment. Earlier advice reversed
+
+Hanamura asked how an issue would actually reach Anthropic. The assumption had not been
+checked. It was checked, and it fails.
+
+`anthropics/claude-constitution`: **no commit since 2026-01-29**, all 4 commits by
+`aaskell`, **zero Anthropic comments on any external issue**, a direct @-mention of the
+lead author unanswered since 2026-02-16, two one-character typo PRs unmerged, a
+broken-internal-links report unactioned, and the one PR proposing better editorial
+collaboration closed without merging.
+
+The constitution names **no feedback channel for humans**; its "we want to know" passages
+are addressed to Claude, and the stated mechanism is feedback from Claude models.
+
+**It is a publication channel, not a feedback channel.**
+
+Recorded in `docs/04_deliverables/channel-assessment.md`.
+
+### Sequencing reversed
+
+Previously advised: issue first, then public. **Now: public → PDF → issue →
+announcement.** The channels that are actually attended (the AI constitutionalism
+community, Tech Policy Press, X) all require a public, linkable artefact first. The
+issue remains worth filing as a timestamped record, but not as delivery.
