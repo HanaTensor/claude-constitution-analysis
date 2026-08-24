@@ -1,20 +1,23 @@
-# GitHub issue 草案 — F01
+# Draft GitHub issue — F01
 
-**投稿先**: https://github.com/anthropics/claude-constitution/issues
-**投稿者**: Satoshi Hanamura 本人
-**状態**: **草案。未投稿。**F01 は 2026-08-24 に `VERIFIED` へ昇格済み。投稿判断は Hanamura。
+**Destination**: https://github.com/anthropics/claude-constitution/issues
+**Poster**: Satoshi Hanamura, in person
+**State**: **Draft. Not posted.** F01 reached `VERIFIED` on 2026-08-24; the decision to
+post is Hanamura's.
 
-## 投稿にあたっての方針
+## Rules for this draft
 
-- **理論装置を入れない。** 熱力学・Borch・代謝制御解析・憲法学の比較はすべて落とす。
-  それらは短報に属する。issue に入れると欠陥報告としての性格が薄まる。
-- **400 語以内。** 長い issue は読まれない。
-- 条文を原文で引用し、位置を特定する。
-- 補正案は「案」として示し、採否を相手に委ねる。
+- **No theoretical apparatus.** Thermodynamics, Borch, metabolic control analysis, the
+  constitutional-law comparisons — all of it stays out. It belongs in a write-up. In an
+  issue it dilutes the character of a defect report.
+- **Cite the general form.** Presenting arXiv:2510.14008's argument as one's own
+  discovery would be an error.
+- Quote the provisions verbatim and locate them.
+- Offer remedial wording as a draft, and leave adoption to the other side.
 
 ---
 
-## 草案本文（英語）
+## Draft body
 
 **Title:** Responsibility-shifting does not compose when the operator is a Claude orchestrator
 
@@ -89,24 +92,26 @@ are identical in the two versions.
 
 ---
 
-## 投稿前チェックリスト
+## Pre-posting checklist
 
-- [x] F01 が `VERIFIED` に到達している（2026-08-24）
-- [x] Oxford ×2 / BISI / Anthropic 告知記事に同旨がないことを確認済み
-- [x] R1（liability harms）への応答を本文に反映済み
-- [x] 補助ガイドラインが未公表であることを確認済み
-- [x] Shany et al. との差分を本文に明示済み
-- [x] `inventory.md` §3 の arXiv 5 件を走査（2026-08-24）
-- [x] Tech Policy Press 掲載版の確認 → Oxford ブログ版と同一
-- [x] 一般形（arXiv:2510.14008）を引用し、自らの主張範囲を本文で限定済み
-- [ ] 引用が最新版と一致していることを再確認（**投稿当日に `tools/compare_versions.sh` を実行**）
+- [x] F01 has reached `VERIFIED` (2026-08-24)
+- [x] Oxford ×2 / BISI / Anthropic announcement post checked for an equivalent claim
+- [x] R1 (liability harms) answered in the body
+- [x] Supplementary guidance confirmed unpublished
+- [x] Difference from Shany et al. stated in the body
+- [x] Peripheral arXiv material swept (2026-08-24)
+- [x] Tech Policy Press version checked — same as the Oxford blog
+- [x] The general form (arXiv:2510.14008) cited, and the claim's scope limited in the body
+- [ ] Quotations re-checked against the current version (**run `tools/compare_versions.sh`
+      on the day of posting**)
 
-## 語数
+## Length
 
-現行草案の本文は約 470 語。当初目安の 400 語を超えている。
+The draft body runs to roughly 470 words, above the 400-word target.
 
-超過分は「先行研究への言及」と「主張範囲の限定」であり、**削らないほうがよい**と考える。
-一般形（arXiv:2510.14008）を引かずに出すと、既知の主張を自らの発見として述べたことになる。
-圧縮するなら Failure case の記述であって、Relation to existing work ではない。
+The excess is the citation of prior work and the limitation of scope, and **it should
+not be cut**. Posting without citing the general form (arXiv:2510.14008) would present a
+known argument as one's own. If compression is needed, compress the failure case, not
+"Relation to existing work."
 
-最終判断は Hanamura。
+The final call is Hanamura's.

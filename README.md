@@ -1,78 +1,94 @@
 # claude-constitution-analysis
 
-Anthropic『Claude's Constitution』(2026年1月21日公開) の**構造分析**。
+A structural analysis of Anthropic's **Claude's Constitution** (published 21 January 2026).
 
-法学・契約理論・エージェンシー理論・線形応答理論の四つの語彙で同一文書を読み、
-条文間の**合成不能性**および**未規定領域**を特定する。
+The document is read through four independent vocabularies — constitutional law,
+contract theory, agency theory, and linear response theory — in order to locate
+**composition failures between provisions** and **unregulated territory**.
 
-- 対象文書: <https://www.anthropic.com/constitution> / <https://github.com/anthropics/claude-constitution> (CC0 1.0)
-- 分析主体: Satoshi Hanamura (HanaTensor)
-- 本リポジトリの分析部分: CC BY 4.0 (`LICENSE` 参照)。`sources/` は原典 (CC0)。
+- Subject document: <https://www.anthropic.com/constitution> ·
+  <https://github.com/anthropics/claude-constitution> (CC0 1.0)
+- Author: Satoshi Hanamura (HanaTensor)
+- Analysis in this repository: CC BY 4.0 (see `LICENSE`). `sources/` reproduces the
+  original document, which is CC0.
 
-## 主張の要旨
+## The central claim
 
-本分析の中心的主張は**一つ**である。
+This repository makes **one** central claim.
 
-> 責任移転条項 (*The role of intentions and context*) は、principal が人間であることを
-> 暗黙の前提とする。ところが principal 役割規定 (*Claude's three types of principals*) は、
-> Claude オーケストレーターを配下サブエージェントの operator/user と定める。
-> 両者を合成すると、**責任が系外に出ない**。
+> The responsibility-shifting provision (*The role of intentions and context*)
+> presupposes that principals are human. But the principal-role provision
+> (*Claude's three types of principals*) designates a Claude orchestrator as the
+> operator/user of its own subagents. Compose the two and **responsibility never
+> leaves the system**.
 
 → [`docs/01_findings/F01-responsibility-composition.md`](docs/01_findings/F01-responsibility-composition.md)
 
-その他の知見および、既知の先行研究の再述にすぎない部分は、すべて
-[`docs/01_findings/README.md`](docs/01_findings/README.md) に**格付き**で列挙する。
-新規性の主張と再述を混ぜないことを、本リポジトリの原則とする。
+Every other finding — including the parts that are restatements of known results —
+is listed with an explicit **Status** in
+[`docs/01_findings/README.md`](docs/01_findings/README.md).
+Keeping novelty claims separate from restatement is the governing principle here.
 
-## 構成
+## Layout
 
-| パス | 内容 |
+| Path | Contents |
 |---|---|
-| `docs/00_scope.md` | 研究範囲・問い・方法・境界 |
-| `docs/01_findings/` | 知見。1件1ファイル。各ファイル冒頭に **格付 (Status)** を明記 |
-| `docs/02_frameworks/` | 四つの読解枠組み。**方法であって主張ではない** |
-| `docs/03_prior_art/` | 先行研究の棚卸しと、確認作業のログ |
-| `docs/04_deliverables/` | GitHub issue 草案・短報草案 |
-| `sources/` | 原典 (版管理・来歴・ハッシュ) |
-| `tools/` | 取得・照合スクリプト (再現用) |
-| `log/worklog.md` | 作業ログ |
+| `docs/00_scope.md` | Scope, questions, method, boundaries |
+| `docs/01_findings/` | Findings, one per file. Each opens with its **Status** |
+| `docs/02_frameworks/` | The four reading frameworks. **Method, not claim** |
+| `docs/03_prior_art/` | Prior-art inventory and the verification log |
+| `docs/04_deliverables/` | Draft GitHub issue; draft note |
+| `sources/` | The original document, versioned, with provenance and hashes |
+| `tools/` | Fetch and comparison scripts (for reproduction) |
+| `log/worklog.md` | Work log |
 
-## 格付 (Status) の定義
+## Status vocabulary
 
-| 格 | 意味 |
+| Status | Meaning |
 |---|---|
-| `CANDIDATE` | 固有の知見と思われるが、**先行研究の確認が未了** |
-| `VERIFIED` | 先行研究を確認し、なお固有と判断した |
-| `RESTATEMENT` | **既知**。先行を明示のうえ、方法として使用する |
-| `REFUTED` | 先行があった、または誤りと判明した |
+| `CANDIDATE` | Appears to be our own, but **prior art has not been checked** |
+| `VERIFIED` | Prior art checked; judged to remain our own within the stated scope |
+| `RESTATEMENT` | **Known.** Cited to prior work and used as method |
+| `REFUTED` | Prior art found, or the claim turned out to be wrong |
 
-現況: `VERIFIED` 3 件（F01 / F02 / F03）、`CANDIDATE` 1 件、`RESTATEMENT` 1 件、`REFUTED` 0 件。
+Current state: `VERIFIED` 3 (F01, F02, F03) · `CANDIDATE` 1 · `RESTATEMENT` 1 · `REFUTED` 0.
 
-いずれも**新規性は「現象の発見」ではなく「当該文書がそれを規律していないこと」に限られる**
-（`docs/01_findings/README.md`）。
+In every case the novelty claimed is **not the discovery of a phenomenon** but the
+observation that **this document does not regulate it**. See
+[`docs/01_findings/README.md`](docs/01_findings/README.md).
 
-### 寄与先
+## Where this is meant to go
 
-Lawfare / Working Group on AI Constitutionalism の研究アジェンダは、4 つの strand を
-提示したうえで**研究設問を意図的に空欄にし、寄与を招請している**。
-本リポジトリの知見 4 件は、いずれもそのアジェンダが未着手と明記する論点に対応する
-（`docs/03_prior_art/inventory.md` §6）。
+A research agenda for **AI constitutionalism** already exists — the Working Group on
+AI Constitutionalism (Lawfare), and Nick Caputo's *Model Constitution*. That agenda
+sets out four strands and **deliberately leaves its research questions blank as an
+invitation**. All four findings here fall inside territory the agenda explicitly marks
+as unaddressed (`docs/03_prior_art/inventory.md` §6).
 
-## 進め方
+That is not evidence of novelty. It is evidence that there is somewhere to send this.
 
-1. 知見を `docs/01_findings/` に `CANDIDATE` として起こす
-2. `docs/03_prior_art/verification-log.md` で先行を潰す → `VERIFIED` / `REFUTED`
-3. `VERIFIED` のものだけを `docs/04_deliverables/` の issue 草案に落とす
-4. issue 投稿は **Hanamura 本人が行う**
-5. 短報化・Zenodo 登録は issue の反応を見てから判断する
+## Process
 
-F01 は 4 の段階にある。草案は
-[`docs/04_deliverables/issue-F01-draft.md`](docs/04_deliverables/issue-F01-draft.md)。
+1. Raise a finding in `docs/01_findings/` as `CANDIDATE`
+2. Clear prior art in `docs/03_prior_art/verification-log.md` → `VERIFIED` / `REFUTED`
+3. Only `VERIFIED` findings become drafts in `docs/04_deliverables/`
+4. **Hanamura posts.** Nothing here is submitted automatically
+5. Whether to write this up and deposit it is decided after the issue draws a response
 
-## 版に関する注意
+F01 is at step 4. The draft is
+[`docs/04_deliverables/issue-F01-draft.md`](docs/04_deliverables/issue-F01-draft.md).
 
-対象文書は**改訂される**。Anthropic は Frontier Safety Roadmap (2026-07-10) で
-「公開版を、直近に訓練へ用いた版と 90 日以内に同期する」と表明している。
+## A note on versions
 
-したがって本リポジトリは、**引用のたびに版を特定する**。
-`sources/PROVENANCE.md` に取得日・URL・SHA-256 を記録する。
+The subject document **is revised**. In its Frontier Safety Roadmap (10 July 2026)
+Anthropic commits to keeping the public constitution in sync with the most recent
+trained-on version **within 90 days**.
+
+Every citation here therefore names a version. Retrieval dates, URLs, and SHA-256
+digests are recorded in `sources/PROVENANCE.md`. Run `tools/compare_versions.sh`
+before relying on any quotation.
+
+## Language
+
+English is the source of truth. An earlier Japanese edition of every document remains
+in the git history (commit `bd03724` onward) and is not maintained.

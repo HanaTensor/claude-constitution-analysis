@@ -1,35 +1,43 @@
-# F04 — hard constraints の非取引性は、凸性の破れの四通りの記述である
+# F04 — The non-tradeability of hard constraints is one fact described four ways
 
-| 項目 | |
+| | |
 |---|---|
-| **格付** | `RESTATEMENT`（**既知**。新規性を主張しない） |
-| **種別** | 方法 |
+| **Status** | `RESTATEMENT` (**known**; no novelty asserted) |
+| **Kind** | Method |
 
-## 内容
+## The point
 
-hard constraints（md L513 以下 / PDF p.46–47）は、いかなる便益とも取引されない。
-この性質は、四つの語彙で次のように記述される。**いずれも同一の事実である。**
+Hard constraints (md L513 ff. / PDF pp. 46–47) are not traded against any benefit.
+Four vocabularies describe that property as follows. **They are the same fact.**
 
-| 語彙 | 記述 | 先行 |
+| Vocabulary | Description | Prior work |
 |---|---|---|
-| 憲法学 | 絶対的制約・改正限界。ドイツ基本法 79 条 3 項型の永久条項 | 標準 |
-| 意思決定理論 | 非アルキメデス的選好。vNM 連続性公理を満たさない。辞書式順序は実数値効用表現を持たない | Debreu (1954, 1959) |
-| 最適化 | 加重和スカラー化は非凸パレートフロントに到達不能。ε制約法が必要 | 多目的最適化の教科書事項 |
-| 線形応答 | リスク許容度 τ = 0（＝熱容量 0）。Borch–Wilson の分担則が定義できない | Borch (1962), Wilson (1968) |
+| Constitutional law | An absolute constraint; a limit on amendment. An eternity clause of the kind in Art. 79(3) of the German Basic Law | Standard |
+| Decision theory | Non-Archimedean preference. The vNM continuity axiom fails; a lexicographic order admits no real-valued utility representation | Debreu (1954, 1959) |
+| Optimisation | Weighted-sum scalarisation cannot reach a non-convex Pareto frontier; the ε-constraint method is required | Textbook multi-objective optimisation |
+| Linear response | Risk tolerance τ = 0, i.e. zero heat capacity. The Borch–Wilson sharing rule is undefined | Borch (1962), Wilson (1968) |
 
-## 双対性についての注記
+## A note on duality
 
-応答ゼロは、結合の型により正反対に読める。
+Zero responsiveness reads in opposite ways depending on how the elements are coupled.
 
-- **並列**（リスク分担）: 容量 0 の要素は何も吸収しない → Claude は当該方向の
-  トレードオフを一切負担しない
-- **直列**（制御分配）: 弾性 0 の段階は制御係数が 1 に向かう → 当該制約が単独で結論を決める
+- **In parallel** (risk sharing): an element of zero capacity absorbs nothing — Claude
+  bears none of the trade-off along that direction.
+- **In series** (control distribution): a step of zero elasticity takes a control
+  coefficient tending to 1 — the constraint alone determines the outcome.
 
-hard constraints は両方の性質を持つ。矛盾ではなく直列・並列の双対である。
+Hard constraints display both. This is not a contradiction but the duality of series
+and parallel coupling.
 
-## なぜ記録するか
+The document states the property in its own terms:
 
-**新規性はない。**しかし、四つの独立な枠組みが同一箇所で同一の破綻を示すことは、
-その箇所が対象の性質であって記述の癖ではないことの傍証になる。
+> "Rather than being weighed against other considerations, they act more like
+> **boundaries or filters** on the space of acceptable actions."
+> — § Hard constraints (md L520 area / p. 47)
 
-本リポジトリはこれを**主張ではなく方法**として使用する（`docs/00_scope.md`）。
+## Why record it
+
+**There is no novelty here.** But four independent frameworks breaking at the same
+point is evidence that the point belongs to the object rather than to the description.
+
+This repository uses that as **method, not claim** (`docs/00_scope.md`).

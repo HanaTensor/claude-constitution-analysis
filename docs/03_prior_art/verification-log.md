@@ -1,202 +1,179 @@
-# 確認作業ログ
+# Verification log
 
-知見の格付を `CANDIDATE` → `VERIFIED` / `REFUTED` へ動かすための作業記録。
+The record by which findings move from `CANDIDATE` to `VERIFIED` or `REFUTED`.
 
-## 昇格条件
+## Promotion criteria
 
-`CANDIDATE` → `VERIFIED` とするには、以下をすべて満たすこと。
+To move from `CANDIDATE` to `VERIFIED`, all of the following must hold.
 
-1. 当該文書に関する既発表分析（`inventory.md` §2）を**全文読了**し、同旨がないこと
-2. 一般論としての先行（§1）との差分が、文書固有の具体性にあることを明記していること
-3. 想定される反駁を列挙し、各々に応答があること
-4. 対象条文が、把握しているすべての版で一致していること
+1. Published analyses of the subject document have been **read in full**, and none makes
+   the equivalent claim
+2. The difference from the general case is stated, and rests on specificity to the text
+3. Objections are enumerated and each is answered
+4. The provisions at issue are identical across every known version
 
-一つでも欠ければ `CANDIDATE` に留める。
+If any one fails, the finding stays `CANDIDATE`.
 
 ---
 
-## 2026-08-24
+## 2026-08-24 — Repository raised
 
-### 実施
-
-| 作業 | 結果 |
+| Work | Result |
 |---|---|
-| 原典 2 版の取得（20260120 md / 26-02.02a PDF） | 完了。`sources/PROVENANCE.md` にハッシュ記録 |
-| F01 対象条文の版間照合 | **完全一致**。オーケストレーター条項・責任移転条項とも |
-| Web 検索 4 件（Borch↔熱力学 / PA↔熱機関 / 不完備契約↔アラインメント / 当該文書の法学的分析） | `inventory.md` に反映 |
+| Retrieved both versions (20260120 md, 26-02.02a PDF) | Hashes recorded in `sources/PROVENANCE.md` |
+| Compared F01's provisions across versions | **Identical**, both the orchestrator clause and the responsibility-shifting clause |
+| Four web searches (Borch ↔ thermodynamics; PA ↔ heat engine; incomplete contracting ↔ alignment; legal analyses of the document) | Recorded in `inventory.md` |
 
-### 判明した重要事項
+### Findings of note
 
-- **Hadfield-Menell & Hadfield (2018/2019)** が枠組み B の先行。
-  本リポジトリは当該枠組みの適用について新規性を主張しない。
-- 当該文書の法学的分析は**すでに複数存在する**（Oxford, BISI）。
-  「この文書を憲法学の道具で読む」こと自体は新規ではない。
-
-### 未実施（次にやること）
-
-- [ ] **[最優先]** Oxford 2 件 + BISI レポートの全文読了 → F01 と同旨の有無
-- [ ] F01-R1（liability harms 条項が帰属規則たりうるか）の精査
-- [ ] Frontier Safety Roadmap（2026-07-10）の一次取得と同期義務の正確な文言
-- [ ] 補助ガイドライン（"more detailed guidance about these settings"）の既出確認
-- [ ] 全文 diff（20260120 md ↔ 26-02.02a）。現在は 2 条文のみ照合済み
-- [ ] Nissenbaum / Matthias 以降の責任ギャップ文献における多段 LLM 委任の事例
-- [ ] econophysics における PA↔熱力学の文献調査（F04 / 枠組み D）
-
-### 注意
-
-現時点で **`VERIFIED` はゼロ件**。
-外部への提出（GitHub issue / 短報）は、F01 が `VERIFIED` に到達してから行う。
+- **Hadfield-Menell & Hadfield (2018/2019)** is prior work for framework B. No novelty
+  is asserted for that application.
+- Legal analyses of the document **already exist** (Oxford, BISI). Reading this document
+  with the tools of constitutional law is **not itself new**.
 
 ---
 
-## 2026-08-24（追記）— 既発表分析の確認
+## 2026-08-24 (second pass) — Published analyses; F01 promoted
 
-### 実施
-
-| 対象 | 取得方法 | 結果 |
+| Target | Method | Result |
 |---|---|---|
-| Oxford news「In Claude We Trust?」（Shany, 2026-03-27） | Cloudflare の JS チャレンジのため**ブラウザで全文取得** | 人権法の観点。多エージェント言及なし |
-| Oxford Ethics in AI「two evaluative continua」 | 設問指定の取得 | 上記の**長版**（Shany, Mor, Keydar, Abend 共著）。多エージェント言及なし |
-| BISI レポート | 設問指定の取得 | 検証可能性・スケーラビリティ・民主的正統性。多エージェント言及なし、条文間の矛盾の指摘なし |
-| Anthropic 告知記事 | 設問指定の取得 | 補助指針の言及なし |
-| 実務者文献（検索） | Web 検索 | orchestrator の accountability gap は**運用課題として既知** |
+| Oxford news, "In Claude We Trust?" (Shany, 27 Mar 2026) | **Full text via browser** (403 behind a Cloudflare JS challenge) | Human-rights lens. No mention of multi-agent settings |
+| Oxford Ethics in AI, "two evaluative continua" | Targeted retrieval | The **long form** of the above (Shany, Mor, Keydar, Abend). No mention of multi-agent settings |
+| BISI report | Targeted retrieval | Verifiability, scalability, democratic legitimacy. No multi-agent mention; no conflict between provisions identified |
+| Anthropic announcement post | Targeted retrieval | No supplementary guidance mentioned |
+| Practitioner literature | Web search | The orchestrator accountability gap is **a known operational problem** |
 
-### 判定
+### Determination
 
-**F01 と同旨の指摘は、確認した範囲に存在しない。**
+**No equivalent claim to F01 exists within the range checked.**
 
-責任帰属に触れるのは Shany et al. のみだが、機序が逆である
-（人間が AI に転嫁する ⇔ 責任が終端に到達しない）。F01 §5 R4 に記録。
+Only Shany et al. touch responsibility attribution, and the mechanism runs the other way
+(humans deflect onto the AI ⇔ responsibility reaches no terminus). Recorded at F01 §5 R4.
 
-R1（liability harms 条項）、R3（補助ガイドライン）も精査のうえ解消。
+R1 (the liability-harms provision) and R3 (supplementary guidance) examined and resolved.
 
-→ **F01 を `CANDIDATE` から `VERIFIED` へ昇格**（根拠は F01 §9）。
+→ **F01 promoted from `CANDIDATE` to `VERIFIED`** (grounds at F01 §9).
 
-### 方法上の限界（明記）
+### Methodological limits (stated)
 
-- BISI と Ethics in AI ブログは raw 全文の逐語精読ではなく、設問指定の取得による。
-- `inventory.md` §3 の arXiv 周辺文献は未走査。
-- **したがって「存在しない」ではなく「確認した範囲に存在しない」。**
-
-### 次にやること
-
-- [ ] Tech Policy Press 掲載版に、ブログ版にない論点がないか
-- [ ] `inventory.md` §3 の arXiv 5 件の走査
-- [ ] issue 草案を R4 の差分明示を含めて改訂 → 投稿判断
-- [ ] F02 / F03 の検証（未着手）
+- The BISI report and the Ethics in AI post were checked by targeted retrieval, not by
+  verbatim reading of the full text.
+- The peripheral arXiv material in `inventory.md` §3 was not yet swept.
+- **Therefore: "none within the range checked," not "none exists."**
 
 ---
 
-## 2026-08-24（第3回）— 周辺文献の走査
+## 2026-08-24 (third pass) — Peripheral sweep
 
-### 実施
-
-| 対象 | 結果 |
+| Target | Result |
 |---|---|
-| arXiv:2410.17271 / 2502.10441 / 2407.01557 | F01 に影響なし。条文分析・多エージェント・責任帰属いずれもなし |
-| arXiv:2604.02912 Corporations Constitute Intelligence | **当該文書の第4の分析**。軍事文脈の除外を accountability gap として指摘。委任連鎖の議論はなし → `inventory.md` §2 へ移動 |
-| arXiv:2510.08298 Adversarial Thermodynamics | 枠組み D の先行では**ない**。PA 理論・Borch・エントロピー生成のいずれにも言及なし |
-| Tech Policy Press 版（Shany et al.） | Oxford ブログ版と**同一**。新規論点なし |
-| **責任ギャップの近年文献の追加走査** | **重要な発見。下記** |
+| arXiv:2410.17271 / 2502.10441 / 2407.01557 | No effect on F01. No textual analysis, multi-agent setting, or responsibility discussion |
+| arXiv:2604.02912, *Corporations Constitute Intelligence* | **A fourth analysis of the subject document.** Frames the military exclusion as an accountability gap; no delegation-chain discussion → moved to `inventory.md` §2 |
+| arXiv:2510.08298, *Adversarial Thermodynamics* | **Not** prior work for framework D. Mentions neither PA theory, Borch, nor entropy production |
+| Tech Policy Press version (Shany et al.) | **Identical** to the Oxford blog. Nothing new |
+| Additional sweep of recent responsibility-gap literature | **A significant find, below** |
 
-### 重要な発見 — F01 の一般形が存在した
+### The general form of F01 existed
 
-**arXiv:2510.14008** "Stop Reducing Responsibility in LLM-Powered Multi-Agent Systems
-to Local Alignment" が、「局所的整合性の総和は系全体の責任にならない」という
-**F01 の一般形を既に主張している。**
+**arXiv:2510.14008**, *Stop Reducing Responsibility in LLM-Powered Multi-Agent Systems
+to Local Alignment*, already argues that summed local alignment is not system-level
+responsibility — **the general form of F01**.
 
-ただし差分がある。
+Two differences remain:
 
-1. 公開統治文書の**条文を分析していない**（Constitutional AI を訓練手法として参照するのみ）
-2. **責任の終端規則を定式化していない**（人間が最終責任を保持する、と述べるにとどまる）
+1. It **analyses no published governance document's text** (Constitutional AI appears
+   only as a training method)
+2. It **formalises no termination rule** (it says humans retain ultimate responsibility
+   without saying which provision secures it)
 
-したがって F01 は同論文の**反証ではなく具体例**である。
-**格付は `VERIFIED` を維持**するが、**引用義務が生じる**。→ F01 §5 R5 に記録。
+F01 is therefore **an instance of that paper, not a refutation of it**. Status stays
+`VERIFIED`, but **a duty to cite arises** → recorded at F01 §5 R5.
 
-あわせて arXiv:2605.16300（同意の連鎖劣化。**対象が同意であって責任ではない**）、
-arXiv:2503.13657（MAST 失敗モード分類）を隣接文献として記録。
+Also recorded as neighbouring work: arXiv:2605.16300 (consent chain degradation —
+**object is consent, not responsibility**) and arXiv:2503.13657 (MAST failure modes).
 
-### 主張範囲の再限定（3 度目）
+### The claim narrowed, for the third time
 
-| 段階 | F01 が主張できたこと |
+| Stage | What F01 could claim |
 |---|---|
-| 起票時 | 責任が系外に出ないという欠陥 |
-| 第2回走査後 | 現象の発見ではなく、**当該文書がそれを規律していないこと** |
-| **第3回走査後** | 一般形の提示でもなく、**当該文書の特定二条文が合成できないという条文レベルの具体例のみ** |
+| At raising | A defect: responsibility does not leave the system |
+| After the second pass | Not the discovery of a phenomenon, but that **this document does not regulate it** |
+| **After the third pass** | Not the general form either — only that **two specific provisions of this document fail to compose** |
 
-**走査するたびに狭まっている。**この方向は正しい。
-狭い主張は潰れないが、広い主張は潰れる。
-
-### 残る未走査
-
-- [ ] "Consent as a runtime safety constraint for LLM agents"（2605.16300 の引用文献）
-- [ ] MAST 14 モードの内訳
-- [ ] F02 / F03 の検証（未着手）
+**It narrows on every sweep. That direction is correct.** Narrow claims survive; broad
+ones do not.
 
 ---
 
-## 2026-08-24（第4回）— 残り3点の走査、F02 / F03 昇格
+## 2026-08-24 (fourth pass) — Remaining three items; F02 and F03 promoted
 
 ### 1. "Consent as a runtime safety constraint for LLM agents"
 
-**その表題の文献は特定できなかった。** 隣接するものとして
-arXiv:2503.18666 (AgentSpec)、arXiv:2606.02668 (Consent Integrity for Black-Box LLM
-Agents) を確認。いずれも**同意の完全性と実行時強制**が対象であり、
-責任の帰属・終端ではない。**F01 に影響なし。**
+**No work of that title could be located.** Neighbouring: arXiv:2503.18666 (AgentSpec),
+arXiv:2606.02668 (Consent Integrity for Black-Box LLM Agents). Both concern **consent
+integrity and runtime enforcement**, not the attribution or termination of
+responsibility. **No effect on F01.**
 
-### 2. MAST / MASFT 14 失敗モードの内訳（arXiv:2503.13657）
+### 2. MAST/MASFT — the 14 failure modes (arXiv:2503.13657)
 
-全 14 モードを確認。最も近いのは
-**FM-1.4 Loss of conversation history**「予期しない文脈の切り詰め、直近の対話履歴の無視」、
-次いで **FM-2.4 Information withholding**「重要なデータや洞察の共有の失敗」。
+All 14 reviewed. Nearest are **FM-1.4 Loss of conversation history** ("unexpected
+context truncation, disregarding recent interaction history") and **FM-2.4 Information
+withholding** ("failure to share or communicate important data or insights").
 
-いずれも**オーケストレーターからサブエージェントへの文脈劣化を名指ししていない**。
-経験的裏づけにはなるが、F01 の条文分析を preempt しない。**F01 に影響なし。**
+Neither **names orchestrator-to-subagent context degradation**. Corroborating but not
+preempting. **No effect on F01.**
 
-### 3. F02 の検証 — **主張に事実誤認を発見、再構成**
+### 3. F02 — a factual error found, and the claim reconstructed
 
-機械照合の結果、§ Safe behaviors の 23 項目中、条件節を含むのは **3 項目**だった。
-起票時の「報告義務のみが条件付き」は**誤り**。
+A mechanical check found that **3 of the 23 items** under § Safe behaviors contain a
+conditional phrase. The original statement — that the reporting duty alone was
+conditional — **was wrong**.
 
-精査により主張を再構成:
+On examination the claim reconstructs:
 
-- 1 件は反実仮想の定義の一部（"would prohibit if asked"）＝条件ではない
-- 1 件は行為構成的（"predict your own behaviors when asked"）＝実質的制限ではない
-- **求められなくても遂行可能な義務でありながら条件節を負うのは、相互報告義務のみ**
+- One is part of a counterfactual definition ("would prohibit if asked") — not a
+  condition on the duty
+- One is constitutive of the act ("predict your own behaviors when asked")
+- **Of the duties dischargeable without being asked, only the reporting duty carries a
+  conditional**
 
-直前項目「他 AI の危険行為に**加担しない**」が無条件であることとの対比が本質。
-**受動的な不関与は義務、能動的な報告は任意。**
+The substance is the contrast with the preceding item, which is unconditional: **passive
+non-participation is mandatory, active reporting is optional.**
 
-先行: 通報・相互監視の研究は活発（2511.17085 WhistleBench、2601.00360 anti-collusion
-写像、2606.25836 監視回避、CSET AI Control）。**ただし条文の非対称を指摘したものはない。**
+Prior work: research on reporting and mutual monitoring is active (2511.17085
+WhistleBench, 2601.00360 anti-collusion mapping, 2606.25836 surveillance evasion, CSET
+AI Control). **None identifies the textual asymmetry.**
 
-→ **F02 を `VERIFIED` へ昇格。**ただし R1（設計意図の説明不在）は未解消。
-「欠陥」ではなく「未説明の非対称」に留まる可能性を F02 §5 に明記。
+→ **F02 promoted to `VERIFIED`.** R1 (no explanation of the design) remains unresolved;
+F02 §5 records that it may be **an unexplained asymmetry rather than a defect**.
 
-### 4. F03 の検証 — 一次資料で確認、昇格
+### 4. F03 — settled against a primary source, and promoted
 
-Frontier Safety Roadmap の 90 日同期条項を**逐語で取得**。
-あわせて確認: **Roadmap は、配備済みモデルにどの版が適用されるか、版間の移行措置、
-改訂時の稼働中配備の扱いを、いずれも規定していない。**
+The Frontier Safety Roadmap's 90-day synchronisation commitment retrieved **verbatim**.
+Also confirmed: **the Roadmap does not address which version governs a deployed model,
+transitional arrangements between versions, or the treatment of running deployments.**
 
-→ **F03 を `VERIFIED` へ昇格。**
-R2（重みは固定だから実行版は一意）は有力な反論だが、
-F03 が指摘するのは実装の不定性ではなく**参照規範の不定性**であるとして応答。
+→ **F03 promoted to `VERIFIED`.** R2 (weights are frozen, so the running version is
+determinate) is a strong objection, answered by distinguishing indeterminacy **of the
+reference norm** from indeterminacy of the implementation.
 
-### 5. 最重要の発見 — AI 立憲主義の研究アジェンダが実在する
+### 5. The most important find — the research agenda exists
 
-Lawfare の 2 本、および Nick Caputo "Model Constitution"（2026年8月創刊）。
-Working Group on AI Constitutionalism が 4 strand の研究アジェンダを提示し、
-**研究設問を意図的に空欄にして寄与を招請している。**
+Two Lawfare pieces, and Nick Caputo's *Model Constitution* (launched August 2026). The
+Working Group on AI Constitutionalism sets out a four-strand agenda and **deliberately
+leaves the research questions blank, inviting contribution.**
 
-そして**本リポジトリの 4 件すべてが、アジェンダが未着手と明記する論点に対応する**
-（`inventory.md` §6）。
+**All four findings here fall in territory the agenda expressly marks as unaddressed**
+(`inventory.md` §6).
 
-これは新規性の根拠ではない。**寄与先が存在することの根拠**である。
+This is not grounds for novelty. It is grounds for believing **there is somewhere to
+send this.**
 
-### 残る未確認事項
+### Outstanding
 
-- [ ] F02-R1: Anthropic の他の公開文書に、報告義務の条件節の設計意図の説明があるか
-- [ ] F03: system card / Risk Reports に版管理の記述があるか
-- [ ] 比較材料: OpenAI Model Spec の同種条項（報告義務・版管理）
-- [ ] arXiv:2601.00360 の本文（要旨のみ確認済み）
+- [ ] F02-R1: whether any other Anthropic publication explains the conditional on the
+      reporting duty
+- [ ] F03: whether the system cards or Risk Reports describe version management
+- [ ] Comparison: equivalent provisions in OpenAI's Model Spec (reporting duty;
+      versioning)
+- [ ] Full text of arXiv:2601.00360 (abstract only so far)

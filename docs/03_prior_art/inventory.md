@@ -1,149 +1,158 @@
-# 先行研究の棚卸し
+# Prior-art inventory
 
-**本リポジトリで用いた理論のうち、既知のものを網羅的に列挙する。**
-新規性の主張と再述を分離するための基礎資料。
+**An exhaustive listing of the existing work this repository relies on**, kept so that
+novelty claims and restatements stay separable.
 
-## 1. 完全に既知（多くは数十年前）
+## 1. Established, much of it decades old
 
-| 主題 | 先行 |
+| Topic | Prior work |
 |---|---|
-| 熱力学↔経済学の双対性 | Samuelson『経済分析の基礎』(1947)。Le Chatelier 原理の移植。Maxwell 関係式 ↔ Slutsky 対称性 |
-| 最適リスク分担 | Borch (1962) *Econometrica*; Wilson (1968) "The theory of syndicates" |
-| モラル・ハザードと誘因契約 | Holmström (1979); Jensen & Meckling (1976) |
-| 不完備契約・残余制御権 | Grossman & Hart (1986); Hart & Moore (1990) |
-| チーム生産と残余請求者 | Alchian & Demsetz (1972) |
-| 退出・発言・忠誠 | Hirschman (1970) |
-| 辞書式選好に実数値効用表現なし | Debreu (1954, 1959) |
-| 加重和スカラー化の非凸フロンティア到達不能 / ε制約法 | 多目的最適化の教科書事項 |
-| 代謝制御解析・総和定理 | Kacser & Burns (1973); Heinrich & Rapoport (1974) |
-| 計算機システムにおける「多くの手の問題」 | Nissenbaum (1996) |
-| 学習機械の責任帰属ギャップ | Matthias (2004) |
-| **不完備契約→AI アラインメント** | **Hadfield-Menell & Hadfield (arXiv:1804.04268, AIES 2019)** |
+| Thermodynamics–economics duality | Samuelson, *Foundations of Economic Analysis* (1947); the Le Chatelier transplant; Maxwell relations ↔ Slutsky symmetry |
+| Optimal risk sharing | Borch (1962), *Econometrica*; Wilson (1968), "The theory of syndicates" |
+| Moral hazard and incentive contracts | Holmström (1979); Jensen & Meckling (1976) |
+| Incomplete contracts, residual control rights | Grossman & Hart (1986); Hart & Moore (1990) |
+| Team production and the residual claimant | Alchian & Demsetz (1972) |
+| Exit, voice, and loyalty | Hirschman (1970) |
+| No real-valued utility for lexicographic preference | Debreu (1954, 1959) |
+| Weighted-sum scalarisation cannot reach non-convex frontiers; ε-constraint | Textbook multi-objective optimisation |
+| Metabolic control analysis; summation theorem | Kacser & Burns (1973); Heinrich & Rapoport (1974) |
+| The problem of many hands in computing | Nissenbaum (1996) |
+| Responsibility gaps for learning automata | Matthias (2004) |
+| **Incomplete contracting → AI alignment** | **Hadfield-Menell & Hadfield (arXiv:1804.04268; AIES 2019)** |
 
-最後の一行は重要である。本リポジトリの枠組み B（契約理論による読解）は、
-**8 年前に論文一本分の先行がある。**
+The last line matters. Framework B — the contract-theoretic reading — **is preceded by a
+full paper, eight years old.**
 
-## 2. 当該文書に関する既発表分析（2026-08-24 時点で把握しているもの）
+## 2. Published analyses of the subject document
 
-| 出典 | 種別 | URL |
+| Source | Kind | URL |
 |---|---|---|
-| Oxford, "In Claude We Trust? Evaluating the New Constitution"（2026-03-27） | 評価コメント | https://www.ox.ac.uk/news/2026-03-27-expert-comment-claude-we-trust-evaluating-new-constitution |
-| Oxford Ethics in AI, "Claude's new Constitution: two evaluative continua" | ブログ | https://www.oxford-aiethics.ox.ac.uk/blog/claudes-new-constitution-two-evaluative-continua |
-| BISI, "Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance" | レポート | https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance |
-| Anthropic, "Claude's new constitution" | 一次資料（解説） | https://www.anthropic.com/news/claude-new-constitution |
-| Shany et al., "In Claude We Trust? Stress Testing the AI Model's Constitution" | 上記 Oxford 論考の **Tech Policy Press 版（内容同一）** | https://www.techpolicy.press/in-claude-we-trust-stress-testing-the-ai-models-constitution/ |
-| arXiv:2604.02912 "Corporations Constitute Intelligence" | 2026年1月版憲法を「これまでで最も包括的な企業 AI 統治文書」と評価しつつ、軍事文脈の除外と民主的熟議の不在を批判 | https://arxiv.org/abs/2604.02912 |
+| Oxford, "In Claude We Trust? Evaluating the New Constitution" (Shany, 27 Mar 2026) | Expert comment | https://www.ox.ac.uk/news/2026-03-27-expert-comment-claude-we-trust-evaluating-new-constitution |
+| Oxford Ethics in AI, "Claude's new Constitution: two evaluative continua" | Blog; the long form of the above, with Mor, Keydar, and Abend | https://www.oxford-aiethics.ox.ac.uk/blog/claudes-new-constitution-two-evaluative-continua |
+| Shany et al., "In Claude We Trust? Stress Testing the AI Model's Constitution" | **Tech Policy Press version; textually the same argument** | https://www.techpolicy.press/in-claude-we-trust-stress-testing-the-ai-models-constitution/ |
+| BISI, "Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance" | Report | https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance |
+| Anthropic, "Claude's new constitution" | Primary (announcement) | https://www.anthropic.com/news/claude-new-constitution |
+| arXiv:2604.02912, *Corporations Constitute Intelligence* | Calls the January 2026 constitution the most comprehensive corporate AI governance document yet released, while criticising the exclusion of military contexts and the absence of democratic deliberation | https://arxiv.org/abs/2604.02912 |
 
-**2026-08-24 に全件確認済み。** 詳細は `verification-log.md`。
+**All checked 2026-08-24.** Details in `verification-log.md`.
 
-### 確認結果の要点
+### What the check found
 
-- Oxford の 2 件は**同一論考の短版・長版**である。
-  著者は Yuval Shany（Institute for Ethics in AI）、長版は Noa Mor, Renana Keydar,
-  Omri Abend との共著。Tech Policy Press にも掲載。
-- 論点は**人権法の観点**。2026 年版が 2023 年版にあった世界人権宣言への言及を落とし、
-  「human rights」の語を一切用いていないことへの批判。
-- **3 件とも、多エージェント設定・オーケストレーター・サブエージェントに一切言及がない。**
-- 責任帰属に触れるのは Shany et al. のみ。ただし機序が F01 と逆（F01 §5 R4 参照）。
-- Anthropic 告知記事に、エージェント環境向け補足指針の言及は**ない**（F01 §5 R3）。
+- The two Oxford items are **the short and long forms of one argument**, by Yuval Shany
+  (Institute for Ethics in AI), the long form with Noa Mor, Renana Keydar, and Omri
+  Abend. The Tech Policy Press version is the same text.
+- The argument is **a human-rights one**: the 2026 version drops the reference to the
+  Universal Declaration that the 2023 version carried, and never uses the phrase "human
+  rights."
+- **None of them mentions multi-agent settings, orchestrators, or subagents at all.**
+- Only Shany et al. touch responsibility attribution, and in the opposite direction from
+  F01 (see F01 §5 R4).
+- Anthropic's announcement post mentions **no** supplementary guidance for agentic
+  settings (F01 §5 R3).
 
-### 付随して判明した事実（Oxford の記述による。**独自検証はしていない**）
+### Incidental findings (as reported by Oxford; **not independently verified**)
 
-憲法公布の数週間後に、当該文書の規範的外縁が現実に試された事例が 2 件あるとされる。
+Two occasions are said to have tested the document's outer limits within weeks of
+publication.
 
-1. 2026-03-04、米国 Department of War が Anthropic を supply-chain risk に指定。
-   大規模国内監視および自律型致死兵器システムへの Claude 利用を Anthropic が拒否したため。
-   DoW は代替として OpenAI と契約。
-2. Claude が米軍により、イラン戦争における目標選定に使用されたと広く報じられている。
-   ある誤爆（イランの学校への攻撃）に、旧版地図への依存を通じて AI が寄与した可能性が
-   指摘されている（**確証はないと Oxford 自身が明記**）。
+1. On 4 March 2026 the US Department of War designated Anthropic a supply-chain risk,
+   after Anthropic declined to permit Claude's use for mass domestic surveillance and
+   for lethal autonomous weapon systems. The Department contracted with OpenAI instead.
+2. Claude systems are widely reported to have been used by the US military for target
+   selection in the war in Iran. A contribution to one strike in error (an Iranian
+   school), by way of reliance on out-of-date maps, has been suggested — **Oxford states
+   explicitly that there is no hard evidence.**
 
-本リポジトリの主張とは独立の事実であるが、**当該文書が既に高リスク環境で
-試されている**ことを示す文脈情報として記録する。
+Independent of this repository's claims, but recorded because it shows **the document is
+already being tested in high-stakes settings**.
 
-## 4b. 責任ギャップの近年文献（2026-08-24 走査。**F01 の一般形が存在した**）
+## 3. Peripheral literature (swept 2026-08-24)
 
-| 文献 | 内容 | F01 との関係 |
+| Source | Content | Effect on F01 |
 |---|---|---|
-| **arXiv:2510.14008** Stop Reducing Responsibility in LLM-Powered Multi-Agent Systems to Local Alignment | 局所的なエージェント単位のアラインメントから、系全体の agreement への転換を主張 | **F01 の一般形。引用義務あり。**ただし公開統治文書の条文分析なし、責任終端規則の定式化なし |
-| arXiv:2605.16300 Consent Chain Degradation in Embodied Multi-Agent Systems | 委任連鎖を通じた**同意**の劣化（CCD）、delegation drift | 機序は構造的に並行だが、**対象が同意であって責任ではない**（著者自身が responsibility gap と明示的に区別）。embodied robot 限定 |
-| arXiv:2503.13657 Why Do Multi-Agent LLM Systems Fail? | MAST（14 失敗モード／3 分類） | 経験的裏づけ。責任帰属・統治文書の議論なし |
+| arXiv:2410.17271, *Rules, Cases, and Reasoning* | Positivist legal theory (general rules interacting with cases) as an alignment framework | No analysis of constitutional text. **None** |
+| arXiv:2502.10441, *AI Alignment at Your Discretion* | Measurement of annotator discretion | No multi-agent or responsibility discussion. **None** |
+| arXiv:2604.02912, *Corporations Constitute Intelligence* | Analysis of the January 2026 constitution; military exclusion framed as an accountability gap | **Moved to §2** as an analysis of the subject document. No delegation-chain discussion |
+| arXiv:2407.01557, *AI Governance and Accountability* | NIST AI RMF and EU AI Act lens; submitted May 2024 | **Subject is an earlier version.** No multi-agent or responsibility discussion. None |
+| arXiv:2510.08298, *Adversarial Thermodynamics* | Work extraction as an adversarial game (thermodynamics → decision theory) | Mentions **neither** principal–agent theory, **nor** Borch's theorem, **nor** agency cost as entropy production. Not prior work for framework D |
 
-### 未走査
+## 4. Recent responsibility-gap literature (swept 2026-08-24 — **the general form of F01 existed**)
 
-- "Consent as a runtime safety constraint for LLM agents"（2605.16300 が引用）
-- MAST 14 モードの内訳（文脈劣化委任が明示的に含まれるか）
+| Work | Content | Relation to F01 |
+|---|---|---|
+| **arXiv:2510.14008**, *Stop Reducing Responsibility in LLM-Powered Multi-Agent Systems to Local Alignment* | Argues for a shift from local agent-level alignment to system-level agreement | **The general form of F01. Must be cited.** But analyses no published governance document's text and formalises no termination rule |
+| arXiv:2605.16300, *Consent Chain Degradation in Embodied Multi-Agent Systems* | Consent chain degradation and delegation drift | Structurally parallel mechanism, but **its object is consent, not responsibility** (the authors expressly distinguish the responsibility gap). Confined to embodied robots |
+| arXiv:2503.13657, *Why Do Multi-Agent LLM Systems Fail?* | MAST/MASFT: 14 failure modes in 3 categories | Empirical corroboration. Nearest are FM-1.4 *Loss of conversation history* and FM-2.4 *Information withholding*; neither names orchestrator-to-subagent context degradation. No responsibility or governance discussion |
 
-## 5. 実務者文献における既知性（重要）
+### Neighbouring work on AI-to-AI reporting (relevant to F02)
 
-企業導入の文脈では、**文脈が劣化したサブエージェントによる事故は既知の運用課題**である。
-検索（2026-08-24）で、orchestrator の責務、accountability gap、
-最小権限設計、stale context によるリスクを扱う実務記事が多数確認された。
+| Work | Content |
+|---|---|
+| arXiv:2511.17085, *Why Do Language Model Agents Whistleblow?* | WhistleBench |
+| arXiv:2601.00360, *Mapping Human Anti-collusion Mechanisms to Multi-agent AI Systems* | Sanctions, leniency/whistleblowing, monitoring/auditing, market design, governance mapped onto AI; whistleblower agents as peers |
+| arXiv:2606.25836, *AI Snitches Get Glitches* | Evading agentic surveillance |
+| CSET, *AI Control: How to Make Use of Misbehaving AI Agents* | Untrusted monitors; collusion between monitor and monitored |
+
+**None analyses the text of a published constitution's reporting provision.**
+
+### Not swept
+
+- "Consent as a runtime safety constraint for LLM agents" — **no work of that title
+  located.** Neighbouring: arXiv:2503.18666 (AgentSpec), arXiv:2606.02668 (Consent
+  Integrity for Black-Box LLM Agents). Both concern consent integrity and runtime
+  enforcement, not responsibility
+- Full text of arXiv:2601.00360 (abstract only)
+
+## 5. Prior knowledge in practitioner literature (important)
+
+In enterprise deployment, **accidents caused by context-degraded subagents are a known
+operational problem.** A search on 2026-08-24 returned numerous practitioner articles on
+orchestrator responsibilities, the accountability gap, least-privilege design, and stale
+context.
 
 - <https://engini.ai/blog/multi-agent-ai-orchestration-claude-subagents-enterprise-governance>
 - <https://pub.towardsai.net/claude-code-subagents-and-main-agent-coordination-a-complete-guide-to-ai-agent-delegation-patterns-a4f88ae8f46c>
 - <https://ccaf-exam.guide/docs/03-multi-agent-orchestration/>
 
-**これは F01 の新規性を部分的に削る。**
-さらに §4b により、**一般形の学術的定式化も既に存在する**ことが判明した。
+**This cuts into F01's novelty**, and §4 shows that an academic statement of the general
+form also exists.
 
-F01 が主張できるのは、
-**当該統治文書の特定の二条文が、特定の条件下で合成できない**という条文レベルの具体例のみ。
-この限定を崩してはならない。
+What F01 may claim is only this: **two specific provisions of this governance document
+fail to compose under a specific condition.** Do not relax that limit.
 
-## 3. 周辺文献（2026-08-24 走査済み）
+## 6. The AI constitutionalism research agenda
 
-| 出典 | 内容 | F01 への影響 |
-|---|---|---|
-| arXiv:2410.17271 Rules, Cases, and Reasoning | 法実証主義（一般規則と事例の相互作用）をアラインメントの枠組みに | 憲法条文の分析なし。**影響なし** |
-| arXiv:2502.10441 AI Alignment at Your Discretion | アノテーターの裁量（alignment discretion）の測定 | 多エージェント・責任帰属の議論なし。**影響なし** |
-| arXiv:2604.02912 Corporations Constitute Intelligence | 2026年1月版憲法の分析。軍事文脈の除外＝accountability gap を指摘 | **当該文書の分析としては §2 へ移動**。ただし多エージェント・委任連鎖の議論なし |
-| arXiv:2407.01557 AI Governance and Accountability | NIST AI RMF / EU AI Act の観点。2024年5月提出 | **対象が旧版**。多エージェント・責任帰属の議論なし。影響なし |
-| arXiv:2510.08298 Adversarial Thermodynamics | 仕事抽出を敵対ゲームとして定式化（熱力学 → 意思決定理論の向き） | プリンシパル＝エージェント理論、Borch の定理、エージェンシーコスト＝エントロピー生成のいずれにも**言及なし**。枠組み D の先行ではない |
+**Found 2026-08-24. The most important context for this project.**
 
-## 4. 検索で先行を確認できなかったもの
+A research community is already forming around this subject.
 
-**「確認できなかった」であって「存在しない」ではない。**
-
-- Borch 則と熱容量加重平均の明示的同定
-- 誘因制約＝維持された勾配 / エージェンシーコスト＝エントロピー生成
-- 代謝制御解析の総和定理とリスク分担則の並置
-
-いずれも 2026-08-24 の Web 検索 4 件のみに基づく。
-紙媒体、日本語文献、未索引のワーキングペーパーは未走査。
-**これらを新規性の根拠にしてはならない。**
-
-## 6. AI 立憲主義（AI constitutionalism）の研究アジェンダ
-
-**2026-08-24 に判明。本プロジェクトにとって最も重要な文脈情報。**
-
-当該領域には、既に形成途上の研究コミュニティが存在する。
-
-| 出典 | 内容 |
+| Source | Content |
 |---|---|
-| Lawfare, "A New Research Agenda for AI Constitutionalism"（Working Group on AI Constitutionalism） | AI 憲法は少数の開発者の専有物であるべきでないとし、4 つの strand を提示。**研究設問は意図的に空欄**とし、学術的寄与を招請している |
-| Lawfare, "Who Writes the AI Constitution?" | 第一修正の観点。AI 憲法は保護された言論であり、政府規制に憲法上の障害があるとする |
-| Nick Caputo, "Model Constitution"（Substack, 2026年8月創刊） | "Toward a Philadelphia Project for AI"。Johns Hopkins School of Government and Policy。Claude's Constitution と OpenAI Model Spec を「憲法テキスト」として扱う |
+| Lawfare, *A New Research Agenda for AI Constitutionalism* (Working Group on AI Constitutionalism) | Argues AI constitutions are too consequential to remain the property of a few developers; sets out four strands, and **deliberately leaves the research questions blank as an invitation to contribute** |
+| Lawfare, *Who Writes the AI Constitution?* | A First Amendment treatment: AI constitutions are protected speech, which raises constitutional obstacles to regulation |
+| Nick Caputo, *Model Constitution* (Substack, launched August 2026) | "Toward a Philadelphia Project for AI." Johns Hopkins School of Government and Policy. Treats Claude's Constitution and OpenAI's Model Spec as constitutional texts |
 
-### 4 つの strand
+### The four strands
 
-1. **Values** — どの価値が入るべきか、価値衝突はどう解決されるか
-2. **Process and Authority** — 価値はどう正統に選択されるか、何が私企業を拘束するか
-3. **Technical** — 価値はどう設計・検証されるか
-4. **Enforcement** — 逸脱の検出と対応
+1. **Values** — which values belong, and how conflicts among them are resolved
+2. **Process and Authority** — how values are legitimately chosen, and what binds
+   private developers
+3. **Technical** — how values are designed into and verified within models
+4. **Enforcement** — detection of and response to divergence
 
-### 本リポジトリの知見との対応（重要）
+### Correspondence with the findings here
 
-研究アジェンダが**明示的に未着手としている**領域に、本リポジトリの知見が入る。
+Points the agenda **expressly marks as unaddressed**:
 
-| 未着手と明記されている論点 | 本リポジトリ |
+| Unaddressed point | This repository |
 |---|---|
-| 改正手続・版管理・経過措置 | **F03** → Strand Two |
-| 責任帰属・多エージェント委任 | **F01** → Strand Four |
-| インスタンス間の相互監視・報告義務 | **F02** → Strand Four |
-| 違憲審査・解釈権限（「衝突がどう裁定されるかの機構を提案していない」と自認） | **F05** → Strand Two / Four |
+| Amendment, versioning, transitional arrangements | **F03** → Strand Two |
+| Responsibility attribution; multi-agent delegation | **F01** → Strand Four |
+| Mutual monitoring and inter-instance duties | **F02** → Strand Four |
+| Constitutional review; who interprets (the agenda concedes it "proposes no mechanism" for adjudicating conflicts) | **F05** → Strands Two and Four |
 
-**4 件すべてが、アジェンダの空白に対応している。**
-これは新規性の根拠ではなく、**寄与先が存在することの根拠**である。
-アジェンダ側が設問を空欄にしている以上、「まだ誰も答えていない」ことは
-「誰も問うていない」ことを意味しない。
+**All four correspond to gaps in the agenda.**
+
+This is not evidence of novelty. It is evidence that **there is somewhere to send this.**
+Where an agenda has deliberately left its questions blank, "no one has answered yet"
+does not mean "no one has asked."

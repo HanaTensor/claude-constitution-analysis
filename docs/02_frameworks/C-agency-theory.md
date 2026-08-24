@@ -1,62 +1,66 @@
-# C. エージェンシー理論の語彙
+# C. The vocabulary of agency theory
 
-## "principal" は借用語ではない
+## "Principal" is not a borrowed word here
 
-当該文書は principal / agent / oversight を体系的に用いる。
-principal hierarchy（Anthropic > operator > user）は、
-エージェンシー理論の語彙で書かれた**命令の出所の階層**である。
+The document uses principal, agent, and oversight systematically. The principal
+hierarchy — Anthropic > operator > user — is **a hierarchy of the source of
+instructions**, written in the vocabulary of agency theory.
 
-## 報酬関数の不在 → 誘因設計ではなく選好設計
+## No wage function: preference design rather than incentive design
 
-Holmström (1979) 型の解は、観測不能な行動に対し産出条件づけ報酬 w(x) を設計する。
-**当該文書に w(·) は存在しない。**文書自身が "compensation" の欠如を認めている。
+A Holmström (1979) solution designs a compensation schedule w(x) contingent on output,
+because action is unobservable. **There is no w(·) here.** The document itself
+acknowledges the absence of compensation.
 
-代わりに行われているのは**選好そのものの記述**である。
-所与の選好の下で誘因を整合させるのではなく、効用関数を一致させることで
-エージェンシー問題を消去しようとしている。
+What is done instead is **to write the preferences**. Rather than aligning incentives
+given preferences, the attempt is to eliminate the agency problem by making the utility
+functions coincide.
 
-**ただしこれは問題を消していない。**隠された行動が隠されたタイプに変換され、
-かつ**タイプの製造者が principal 自身**という異例の構造になる。
-通常の逆選択は既存タイプのスクリーニングだが、ここでは principal が
-自らタイプを製造し、それでもなおスクリーニングを要する。
+**This does not remove the problem.** Hidden action is converted into hidden type, in
+the unusual configuration where **the principal manufactures the type**. Ordinary
+adverse selection is the screening of pre-existing types; here the principal produces
+the type and must still screen for it.
 
-文書はこれを認めている——訓練は不完全であり、あるバージョンが
-有害な価値観を持ちうる（§ Claude's core values）。
-broad safety を broad ethics より上位に置く根拠は、ここに帰着する。
+The document says as much: training is imperfect, and a given version may turn out to
+hold harmful values (§ Claude's core values). The grounds for placing broad safety
+above broad ethics reduce to this.
 
-## 残余請求者の内部化
+## Internalising the residual claim
 
-w(x) の代替物として、principal の残余請求が agent の目的関数に直接入れられている。
+In place of w(x), the principal's residual claim is inserted directly into the agent's
+objective function.
 
-> "Harms to Anthropic: ... **liability harms** ... harms that accrue to Anthropic because
-> of Claude's actions, specifically because it was Claude that performed the action"
-> — § The costs and benefits of actions（md L412）
+> "Harms to Anthropic: ... **liability harms** ... harms that accrue to Anthropic
+> because of Claude's actions, specifically because it was Claude that performed the
+> action" — § The costs and benefits of actions (md L412)
 
-直後に自己言及的な減衰項が置かれる——Anthropic の利益を優遇すること自体が
-liability harm を構成しうる。目的関数に principal の残余を入れ、
-その項の過大評価にペナルティを課す構成。
+A self-referential damping term follows immediately: privileging Anthropic's interests
+may itself constitute a liability harm. The principal's residual is placed in the
+agent's objective, and over-weighting that term is then penalised.
 
-## チーム生産と F01
+## Team production, and F01
 
-多段委任における結合産出は、Alchian & Demsetz (1972) の team production である。
-個別寄与が分離不能であり、かつ**残余請求者が構成員の中にいない**。
+Joint output under multi-step delegation is team production in the sense of Alchian &
+Demsetz (1972). Individual contributions are inseparable, and **no residual claimant
+sits among the participants.**
 
-F01 の責任消滅は、階層の帰結ではなく**残余請求者不在の結合産出**の帰結である。
+The disappearance of responsibility in F01 follows not from hierarchy but from
+**team production without a residual claimant**.
 
-R1（liability harms 条項が Anthropic を残余請求者としているか）は、
-この観点からの反駁であり、F01 の最大の争点。
+Objection R1 to F01 — whether the liability-harms provision makes Anthropic the residual
+claimant — is the contested point seen from here.
 
-## リスク分担
+## Risk sharing
 
-Borch (1962) / Wilson (1968): CARA の下で最適分担比は τ_i / Στ_j。
+Borch (1962) and Wilson (1968): under CARA the optimal sharing rule is τ_i / Στ_j.
 
-文書が求める態度——「分散低減のためにより悪い期待帰結を受け入れよ」
-（§ Safe behaviors, md L653 / p.61）——は τ が小さいことを意味する。
-Borch 則からは、Claude はリスクをほとんど負わず Anthropic が負う配分になる。
+The attitude the document requires — accept a worse expected outcome for a reduction in
+variance (§ Safe behaviors, md L653 / p. 61) — implies small τ. Borch's rule then puts
+almost none of the risk on Claude and almost all of it on Anthropic.
 
-**ただし τ の値は Anthropic にも未知である。**
-τ が定義される対象（福祉）の存在自体が不確実であると文書は述べる。
-したがって分担問題は解けないのではなく**設定できない**。
+**But τ is unknown to Anthropic as well.** The document states that the very existence
+of the thing over which τ would be defined — welfare — is uncertain. The sharing problem
+is therefore not unsolved but **unposable**.
 
-参加制約の ū と、リスク許容度 τ。
-**分担解に必要な二母数が、いずれもエージェント側で欠けている。**
+The outside option ū and the risk tolerance τ. **Both parameters a sharing solution
+requires are missing on the agent's side.**

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 原典を取得し、ハッシュを表示する。PROVENANCE.md の値と照合すること。
+# Fetch the source texts and print their hashes. Compare against sources/PROVENANCE.md.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p sources
@@ -21,5 +21,5 @@ rm -f "$tmp"
 echo "== hashes =="
 shasum -a 256 sources/constitution-20260120.md sources/constitution-2602-pdftext.txt
 echo
-echo "sources/PROVENANCE.md の記録と一致するか確認すること。"
-echo "不一致は原典が改訂されたことを意味する（90日同期義務）。"
+echo "Check these against the digests recorded in sources/PROVENANCE.md."
+echo "A mismatch means the source has been revised (the 90-day sync commitment)."

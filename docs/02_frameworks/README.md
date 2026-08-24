@@ -1,13 +1,14 @@
-# 読解枠組み
+# Reading frameworks
 
-**ここに書かれている理論は、すべて既存のものである。新規性を一切主張しない。**
+**Every theory used here is existing theory. No novelty is asserted in any of it.**
 
-四つの語彙で同一文書を読む目的は、頑健性の確認にある（`docs/00_scope.md`）。
-各枠組みで見えた事象が、他の枠組みでも同一箇所に現れるかを照合するための道具立て。
+The purpose of reading one text in four vocabularies is robustness
+(`docs/00_scope.md`): apparatus for checking whether what one framework surfaces
+appears at the same point in the others.
 
-| ファイル | 語彙 | 主要な道具 |
+| File | Vocabulary | Principal tools |
 |---|---|---|
-| [A](A-constitutional-law.md) | 憲法学・行政法 | 授権、委任の限界、違憲審査、改正手続、制憲権、私人間効力 |
-| [B](B-contract-theory.md) | 契約理論 | 不完備契約、残余制御権、参加制約 |
-| [C](C-agency-theory.md) | エージェンシー理論 | 誘因両立、リスク分担、チーム生産、モラル・ハザード |
-| [D](D-linear-response.md) | 線形応答理論 | 凸性、共役量の加法性、飽和、直列・並列双対 |
+| [A](A-constitutional-law.md) | Constitutional and administrative law | Delegation and its limits, constitutional review, amendment, constituent power, horizontal effect |
+| [B](B-contract-theory.md) | Contract theory | Incomplete contracting, residual control rights, participation constraint |
+| [C](C-agency-theory.md) | Agency theory | Incentive compatibility, risk sharing, team production, moral hazard |
+| [D](D-linear-response.md) | Linear response theory | Convexity, additivity of conjugate quantities, saturation, series–parallel duality |

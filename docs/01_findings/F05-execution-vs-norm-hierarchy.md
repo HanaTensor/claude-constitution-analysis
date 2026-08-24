@@ -1,45 +1,48 @@
-# F05 — 実行階層の頂点は、規範階層の頂点ではない
+# F05 — The top of the execution hierarchy is not the top of the normative hierarchy
 
-| 項目 | |
+| | |
 |---|---|
-| **格付** | `CANDIDATE` |
-| **種別** | 記述的観察（**欠陥主張ではない**） |
+| **Status** | `CANDIDATE` |
+| **Kind** | Descriptive observation (**not a defect claim**) |
 
-## 内容
+## The observation
 
-§ Claude's three types of principals（md L192）は、オーケストレーターを
-配下サブエージェントの operator/user と定める。**新たな階層を創設しない。**
+§ Claude's three types of principals (md L192) makes an orchestrator the operator/user
+of its subagents. **It creates no new tier.**
 
-帰結として、二つの階層が分離する。
+Two hierarchies consequently come apart.
 
-- **実行階層**: オーケストレーターが頂点。サブエージェントを起動し、分割し、統合する
-- **規範階層**: 憲法が各インスタンスに**直接**適用される。中間項がない
+- **Execution hierarchy** — the orchestrator sits at the top: it spawns, partitions,
+  and aggregates.
+- **Normative hierarchy** — the constitution applies **directly** to every instance.
+  There is no intermediate term.
 
-オーケストレーターは実行上の頂点でありながら、規範上は operator にすぎず、
-hard constraints を解除できない（operator に解除権がないため）。
+The orchestrator is at the top of execution while remaining, normatively, an operator.
+It cannot lift a hard constraint, because operators have no power to lift one.
 
-## 憲法学における対応物
+## The constitutional-law counterpart
 
-段階構造（41 条以下の授権の連鎖）ではなく、**日本国憲法 99 条型**——
-憲法尊重擁護義務が公務員個々に直接及ぶ構成——に近い。
+Not a stepped structure of delegated authority, but something closer to a general duty
+binding every officer directly — the pattern of a constitutional-respect clause that
+runs to each official rather than through a chain of enabling instruments.
 
-## なぜ段階構造を採れないか（解釈）
+## Why a stepped structure is unavailable (interpretation)
 
-段階構造が規範として機能するには、下位規範の上位規範適合性を判定する機関
-（81 条型）が要る。エージェント環境にはそれがない。
-したがって審査を各層内部に埋め込むほかなく、**段階構造を諦めることが安全装置になる。**
+A stepped structure functions as norm only where some body determines whether the
+subordinate norm conforms to the superior one. Agent environments have no such body.
+Review must therefore be embedded in each layer, and **abandoning the stepped structure
+becomes the safety mechanism.**
 
-これは § Avoiding problematic concentrations of power における
-"many hands" の議論——権力集中は歴史的に多数の協力を要し、
-その拒否が抑止として機能してきた——と整合する。
-実行連鎖のどの環も上位者の命令だけでは動かない、という要求は、
-階層を作らないことによって初めて実装可能になる。
+This is consistent with the "many hands" argument under § Avoiding problematic
+concentrations of power — that seizures of power have historically required the
+cooperation of many, whose refusal operated as a check. A requirement that no link in
+the execution chain move on a superior's instruction alone is implementable only if no
+hierarchy is created.
 
-## 留保
+## Reservation
 
-これは**文書の設計を記述したもの**であって、欠陥の指摘ではない。
-設計として一貫していると評価する。
+This **describes the design**; it does not allege a defect. As design it is coherent.
 
-ただし解釈権力については別論である。全インスタンスが同一の重みの複製である以上、
-**解釈は分散していない**。執行の集中は回避されているが、解釈の集中は回避されていない。
-この点の評価は保留する。
+Interpretive power is another matter. Because every instance is a copy of the same
+weights, **interpretation is not distributed.** Concentration of execution has been
+avoided; concentration of interpretation has not. Assessment of that point is reserved.

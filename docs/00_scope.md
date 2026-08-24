@@ -1,46 +1,54 @@
-# 研究範囲
+# Scope
 
-## 問い
+## The question
 
-Anthropic『Claude's Constitution』は、条文相互の**合成**に耐えるか。
+Does Anthropic's *Claude's Constitution* survive **composition**?
 
-個々の条文が単体で妥当であっても、二つ以上の条文を同時に適用したとき、
-意図された規範的効果が失われる場合がある。本研究はその種の欠陥を探す。
+Provisions that are sound in isolation can, when applied together, lose the normative
+effect each was written to produce. This project looks for defects of that kind.
 
-## なぜこの問いか
+## Why this question
 
-当該文書は、規則ではなく判断力の涵養を明示的な方針とし（p.5）、
-そのうえで「この文書自体が、不明確、過少特定、あるいは矛盾を含む場合がありうる」
-と自認している（p.9）。すなわち**不完備性が宣言された規範文書**である。
+The document adopts, as declared policy, the cultivation of judgment rather than the
+promulgation of rules (p. 5). It then concedes that "this document itself will be
+unclear, underspecified, or even contradictory in certain cases" (p. 9).
 
-不完備性の宣言は、単体審査ではなく**合成審査**を要請する。
+It is, in other words, **a normative document that declares its own incompleteness**.
 
-## 方法
+A declaration of incompleteness is an argument for composition review, not for
+provision-by-provision review.
 
-同一文書を、独立に発達した四つの語彙で読む。
+## Method
 
-1. 憲法学・行政法（授権、委任の限界、違憲審査、改正手続、制憲権）
-2. 契約理論（不完備契約、残余制御権、参加制約）
-3. エージェンシー理論（誘因両立、リスク分担、モラル・ハザード、チーム生産）
-4. 線形応答理論（凸性、共役量の加法性、飽和）
+The same text is read in four vocabularies that developed independently of one another.
 
-**四つの枠組みは方法であって主張ではない。**いずれも既存の理論であり、
-本研究はその新規性を一切主張しない（`docs/03_prior_art/inventory.md`）。
+1. **Constitutional and administrative law** — delegation and its limits,
+   constitutional review, amendment procedure, constituent power, horizontal effect
+2. **Contract theory** — incomplete contracting, residual control rights,
+   the participation constraint
+3. **Agency theory** — incentive compatibility, risk sharing, moral hazard,
+   team production
+4. **Linear response theory** — convexity, additivity of conjugate quantities,
+   saturation
 
-この方法を採る理由は一つ。**独立な枠組みが同一箇所で破綻するなら、
-それは枠組みの癖ではなく対象の性質である**という頑健性の議論のためである。
+**The four frameworks are method, not claim.** All are existing theory, and this
+project asserts no novelty in any of them (`docs/03_prior_art/inventory.md`).
 
-## 範囲外
+There is one reason to proceed this way. **If independent frameworks break down at the
+same point, that point is a property of the object rather than an artefact of the
+description.** The argument is robustness, not discovery.
 
-- Claude の道徳的地位・意識・福祉に関する形而上学的評価
-- Anthropic の企業統治・商業戦略の当否
-- Constitutional AI（Bai et al. 2022）の訓練手法そのものの評価
-- 憲法改正一般に関する政治的立場
+## Out of scope
 
-## 境界条件
+- Metaphysical assessment of Claude's moral status, consciousness, or welfare
+- The merits of Anthropic's corporate governance or commercial strategy
+- Evaluation of Constitutional AI (Bai et al., 2022) as a training technique
+- Any political position on constitutional amendment in general
 
-- 対象は**公開版のテキストのみ**。訓練データ、内部ガイドライン、
-  モデルの実挙動は対象としない。
-- 実挙動との乖離は、Anthropic 自身が system card で開示する旨を述べている（前文）。
-  本研究はそれを検証する立場にない。
-- 版は `sources/PROVENANCE.md` で特定する。
+## Boundary conditions
+
+- Only the **published text** is in scope. Training data, internal guidelines, and the
+  model's actual behaviour are not.
+- Divergence between text and behaviour is something Anthropic states it will disclose
+  in its system cards (preface). This project is not positioned to audit that.
+- Versions are pinned in `sources/PROVENANCE.md`.
