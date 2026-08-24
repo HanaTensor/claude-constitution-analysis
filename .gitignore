@@ -2,3 +2,7 @@
 *.swp
 *~
 /tmp/
+# intermediate build artefacts; the PDF itself is committed
+build/combined.md
+build/*.tex
+build/*.log

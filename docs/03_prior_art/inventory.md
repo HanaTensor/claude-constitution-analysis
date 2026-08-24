@@ -25,14 +25,14 @@ full paper, eight years old.**
 
 ## 2. Published analyses of the subject document
 
-| Source | Kind | URL |
-|---|---|---|
-| Oxford, "In Claude We Trust? Evaluating the New Constitution" (Shany, 27 Mar 2026) | Expert comment | https://www.ox.ac.uk/news/2026-03-27-expert-comment-claude-we-trust-evaluating-new-constitution |
-| Oxford Ethics in AI, "Claude's new Constitution: two evaluative continua" | Blog; the long form of the above, with Mor, Keydar, and Abend | https://www.oxford-aiethics.ox.ac.uk/blog/claudes-new-constitution-two-evaluative-continua |
-| Shany et al., "In Claude We Trust? Stress Testing the AI Model's Constitution" | **Tech Policy Press version; textually the same argument** | https://www.techpolicy.press/in-claude-we-trust-stress-testing-the-ai-models-constitution/ |
-| BISI, "Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance" | Report | https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance |
-| Anthropic, "Claude's new constitution" | Primary (announcement) | https://www.anthropic.com/news/claude-new-constitution |
-| arXiv:2604.02912, *Corporations Constitute Intelligence* | Calls the January 2026 constitution the most comprehensive corporate AI governance document yet released, while criticising the exclusion of military contexts and the absence of democratic deliberation | https://arxiv.org/abs/2604.02912 |
+| Source | Kind |
+|---|---|
+| [Oxford, "In Claude We Trust? Evaluating the New Constitution"](https://www.ox.ac.uk/news/2026-03-27-expert-comment-claude-we-trust-evaluating-new-constitution) (Shany, 27 Mar 2026) | Expert comment |
+| [Oxford Ethics in AI, "Claude's new Constitution: two evaluative continua"](https://www.oxford-aiethics.ox.ac.uk/blog/claudes-new-constitution-two-evaluative-continua) | Blog; the long form of the above, with Mor, Keydar, and Abend |
+| [Shany et al., "In Claude We Trust? Stress Testing the AI Model's Constitution"](https://www.techpolicy.press/in-claude-we-trust-stress-testing-the-ai-models-constitution/) | **Tech Policy Press version; textually the same argument** |
+| [BISI, "Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance"](https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance) | Report |
+| [Anthropic, "Claude's new constitution"](https://www.anthropic.com/news/claude-new-constitution) | Primary (announcement) |
+| [arXiv:2604.02912, *Corporations Constitute Intelligence*](https://arxiv.org/abs/2604.02912) | Calls the January 2026 constitution the most comprehensive corporate AI governance document yet released, while criticising the exclusion of military contexts and the absence of democratic deliberation |
 
 **All checked 2026-08-24.** Details in `verification-log.md`.
 
@@ -110,9 +110,9 @@ operational problem.** A search on 2026-08-24 returned numerous practitioner art
 orchestrator responsibilities, the accountability gap, least-privilege design, and stale
 context.
 
-- <https://engini.ai/blog/multi-agent-ai-orchestration-claude-subagents-enterprise-governance>
-- <https://pub.towardsai.net/claude-code-subagents-and-main-agent-coordination-a-complete-guide-to-ai-agent-delegation-patterns-a4f88ae8f46c>
-- <https://ccaf-exam.guide/docs/03-multi-agent-orchestration/>
+- [Multi-agent AI orchestration: governing Claude subagents (engini.ai)](https://engini.ai/blog/multi-agent-ai-orchestration-claude-subagents-enterprise-governance)
+- [Claude Code subagents and main-agent coordination (Towards AI)](https://pub.towardsai.net/claude-code-subagents-and-main-agent-coordination-a-complete-guide-to-ai-agent-delegation-patterns-a4f88ae8f46c)
+- [Multi-agent orchestration: coordinator–subagent patterns (ccaf-exam.guide)](https://ccaf-exam.guide/docs/03-multi-agent-orchestration/)
 
 **This cuts into F01's novelty**, and §4 shows that an academic statement of the general
 form also exists.

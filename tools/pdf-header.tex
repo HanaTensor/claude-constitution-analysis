@@ -1,0 +1,10 @@
+% break long URLs anywhere so bare links do not overflow the text block
+\usepackage{xurl}
+% wide comparison tables render at a smaller size
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\footnotesize}
+\AtBeginEnvironment{quote}{\small}
+% allow hyphenation inside typewriter text (long digests, paths)
+\usepackage[htt]{hyphenat}
+% a little more tolerance before a line is declared overfull
+\setlength{\emergencystretch}{3em}
