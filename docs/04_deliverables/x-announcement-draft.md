@@ -1,6 +1,7 @@
 # Draft X announcement
 
-**Poster**: Satoshi Hanamura (@HanaTensor), in person. **Not posted.**
+**Poster**: Satoshi Hanamura (@HanaTensor), in person.
+**Posted 2026-08-24**, all three parts as a thread.
 
 Short by design: the post carries the claim, the PDF carries the argument.
 
@@ -75,3 +76,8 @@ the issue**. The issue should stand as an independent defect report.
 estimation, and all three were over the limit. This is the same failure as F02 §6:
 a quantitative claim made without measuring. `tools/count_post_chars.py` exists so that
 it cannot recur.
+
+**On hard line breaks.** The fenced blocks above are wrapped for readability in markdown,
+and **X preserves those breaks**. Reply 1 went out with a break mid-sentence. Harmless
+here, but future drafts should be written as unbroken paragraphs and left to the client
+to wrap.

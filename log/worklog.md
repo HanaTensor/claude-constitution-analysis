@@ -203,3 +203,42 @@ Previously advised: issue first, then public. **Now: public → PDF → issue �
 announcement.** The channels that are actually attended (the AI constitutionalism
 community, Tech Policy Press, X) all require a public, linkable artefact first. The
 issue remains worth filing as a timestamped record, but not as delivery.
+
+---
+
+## 2026-08-24 (seventh) — Published
+
+### Done
+
+- Repository switched to **public**: `github.com/HanaTensor/claude-constitution-analysis`
+- **Release v1.0** cut, with the 32-page PDF attached
+- **X thread posted** by Hanamura — all three parts: the claim, the scope limitation,
+  and the disclosure
+
+**This is publication.** The repository will not record it on its own; future readers of
+this log should not infer from its silence that the work is unreleased.
+
+### Pre-posting check for the issue (run on the day)
+
+| Check | Result |
+|---|---|
+| Both sources re-fetched | Digests **match** `sources/PROVENANCE.md` exactly — no upstream revision |
+| Ten key provisions across both versions | **All present in both** |
+| Upstream repository | Unchanged: last push still 2026-01-29, still 5 open issues |
+
+**The F01 issue draft is cleared to post.**
+
+### A drafting lesson for next time
+
+The fenced blocks in `x-announcement-draft.md` carry hard line breaks for readability in
+markdown, and **X preserves them**. Reply 1 posted with a break mid-sentence. Harmless,
+but future post drafts should be written as single unbroken paragraphs, with wrapping
+left to the client.
+
+### Next
+
+- [ ] File the F01 issue (Hanamura; **do not link the X post from it**)
+- [ ] Watch for a response — but see `docs/04_deliverables/channel-assessment.md`;
+      none is expected
+- [ ] Then decide: write-up and deposit, and/or approach the AI constitutionalism
+      community (`docs/03_prior_art/inventory.md` §6)
