@@ -4,11 +4,13 @@
 
 Short by design: the post carries the claim, the PDF carries the argument.
 
-Character counts are for the 280-character tier. All three fit.
+All three fit the 280-character tier. **Counts are measured, not estimated** — run
+`tools/count_post_chars.py`. X counts any URL as 23 characters however long it is, and
+counts newlines; the script handles both.
 
 ---
 
-## Main post — 268 characters
+## Main post
 
 ```
 Claude's Constitution says an orchestrating Claude is the *operator* of its own
@@ -20,23 +22,22 @@ Compose the two and responsibility never leaves the system.
 github.com/HanaTensor/claude-constitution-analysis
 ```
 
-## Reply 1 — scope — 279 characters
+## Reply 1 — scope
 
 ```
-Scope, before anyone reads more into it: the phenomenon isn't new. Context-degraded
-subagents are a known operational hazard, and the general argument exists
-(arXiv:2510.14008).
+To be clear on scope: the phenomenon isn't new. Context-degraded subagents are a known
+operational hazard, and the general argument already exists (arXiv:2510.14008).
 
 The claim is narrower — these two provisions, in this text, don't compose.
 
 PDF: github.com/HanaTensor/claude-constitution-analysis/releases/download/v1.0/claude-constitution-analysis.pdf
 ```
 
-## Reply 2 — disclosure — 268 characters
+## Reply 2 — disclosure
 
 ```
-Disclosure, because it changes how you should weigh this: the document analysed is
-Claude's own constitution, and much of the analysis was done by Claude (Opus 5).
+Disclosure, since it should change how you weigh this: the document analysed is Claude's
+own constitution, and much of the analysis was done by Claude (Opus 5).
 
 Anthropic's constitution was itself written with Claude's participation, and says so.
 
@@ -69,3 +70,8 @@ discount appropriately. Stating it voluntarily is stronger than having it notice
 
 **Ordering.** Post to X before filing the GitHub issue, and **do not link the X post from
 the issue**. The issue should stand as an independent defect report.
+
+**On the character counts.** The first version of this file carried counts written from
+estimation, and all three were over the limit. This is the same failure as F02 §6:
+a quantitative claim made without measuring. `tools/count_post_chars.py` exists so that
+it cannot recur.
