@@ -1,0 +1,10 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Satoshi Hanamura
+
+本リポジトリのうち docs/, tools/, log/, README.md に含まれる分析・文章・コードは
+CC BY 4.0 の下で提供される。全文: https://creativecommons.org/licenses/by/4.0/
+
+例外: sources/ 配下のファイルは Anthropic 『Claude's Constitution』の複製であり、
+原典が CC0 1.0 (パブリックドメイン提供) の下で公開されているものである。
+本ライセンスは sources/ には及ばない。
