@@ -15,6 +15,10 @@ post is Hanamura's.
 - **No theoretical apparatus.** Thermodynamics, Borch, metabolic control analysis, the
   constitutional-law comparisons — all of it stays out. It belongs in a write-up. In an
   issue it dilutes the character of a defect report.
+- **Disclose the authorship, and link the repository.** Filing a defect report on
+  Claude's constitution that was largely drafted by Claude, without saying so, would be a
+  worse omission than the risk of the link reading as self-promotion. The X post is a
+  different matter and stays out — the issue must stand as an independent defect report.
 - **Cite the general form.** Presenting arXiv:2510.14008's argument as one's own
   discovery would be an error.
 - Quote the provisions verbatim and locate them.
@@ -95,6 +99,11 @@ the AI; here responsibility reaches no terminus at all, human or otherwise.
 Checked against both the `20260120` markdown and the `26-02.02a` PDF; both provisions
 are identical in the two versions.
 
+**Disclosure.** This report comes out of a longer structural analysis, and much of that
+analysis — including this text — was drafted by Claude (Opus 5). The full record,
+including the limits of its prior-art checking, is at
+https://github.com/HanaTensor/claude-constitution-analysis
+
 ---
 
 ## Pre-posting checklist
@@ -107,8 +116,11 @@ are identical in the two versions.
 - [x] Peripheral arXiv material swept (2026-08-24)
 - [x] Tech Policy Press version checked — same as the Oxford blog
 - [x] The general form (arXiv:2510.14008) cited, and the claim's scope limited in the body
-- [ ] Quotations re-checked against the current version (**run `tools/compare_versions.sh`
-      on the day of posting**)
+- [x] Quotations re-checked against the current version — run 2026-08-24: both digests
+      match `PROVENANCE.md`, all ten provisions present in both versions, upstream
+      repository unchanged since 2026-01-29
+- [x] Paste-ready body written to `build/issue-body.md` (blockquotes flattened to single
+      lines so GitHub renders them as one paragraph each)
 
 ## Length
 
