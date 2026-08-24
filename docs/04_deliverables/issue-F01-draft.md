@@ -2,7 +2,7 @@
 
 **投稿先**: https://github.com/anthropics/claude-constitution/issues
 **投稿者**: Satoshi Hanamura 本人
-**状態**: **草案。未投稿。**F01 が `VERIFIED` に到達するまで投稿しないこと。
+**状態**: **草案。未投稿。**F01 は 2026-08-24 に `VERIFIED` へ昇格済み。投稿判断は Hanamura。
 
 ## 投稿にあたっての方針
 
@@ -56,10 +56,24 @@ orchestrator must preserve when delegating.
 terminates rather than circulating, and/or a floor on context preservation in
 delegation.
 
+**Scope.** This is a claim about the document's internal completeness, not about
+real-world liability. Anthropic may well bear legal responsibility regardless of what
+the text says. But the constitution positions itself as the final authority on Claude's
+reasoning, so a gap here is a gap in Claude's decision procedure.
+
 **Possible counter.** The "liability harms to Anthropic" passage in § The costs and
-benefits of actions may already locate a terminus. But that passage directs Claude to
-*weigh* harms to Anthropic; it does not appear to be an attribution rule, and it
-concerns Anthropic's exposure rather than an answer owed to an affected third party.
+benefits of actions may already locate a terminus. But that passage sits in a list of
+costs Claude should *weigh* when deciding whether to act; it does not appear to be an
+attribution rule, it concerns Anthropic's exposure rather than an answer owed to an
+affected third party, and in the failure case above it never engages — no single
+instance foresees the harm from its own partial context.
+
+**Relation to existing critique.** Shany et al. (Oxford, March 2026) raise an
+accountability gap in which humans blame outcomes on the AI. The direction here is the
+opposite: responsibility does not reach any terminus at all, human or otherwise. The
+operational hazard itself — subagents acting on degraded context — is well known in
+practitioner guidance; what seems absent is any provision in this document addressing
+where responsibility lands when it occurs.
 
 **Draft language** (offered only as a starting point):
 
@@ -75,8 +89,16 @@ are identical in the two versions.
 
 ## 投稿前チェックリスト
 
-- [ ] F01 が `VERIFIED` に到達している
-- [ ] Oxford / BISI に同旨がないことを確認済み
-- [ ] R1（liability harms）への応答が上記本文で十分か再検討済み
-- [ ] 補助ガイドラインが未公表であることを確認済み
-- [ ] 引用が最新版と一致していることを再確認済み（投稿当日）
+- [x] F01 が `VERIFIED` に到達している（2026-08-24）
+- [x] Oxford ×2 / BISI / Anthropic 告知記事に同旨がないことを確認済み
+- [x] R1（liability harms）への応答を本文に反映済み
+- [x] 補助ガイドラインが未公表であることを確認済み
+- [x] Shany et al. との差分を本文に明示済み
+- [ ] `inventory.md` §3 の arXiv 5 件を走査
+- [ ] Tech Policy Press 掲載版の確認
+- [ ] 引用が最新版と一致していることを再確認（**投稿当日に `tools/compare_versions.sh` を実行**）
+
+## 語数
+
+現行草案の本文は約 430 語。400 語をやや超える。
+投稿時に Scope 段落を圧縮するか、そのまま出すかは Hanamura の判断。

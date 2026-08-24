@@ -32,7 +32,46 @@
 | BISI, "Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance" | レポート | https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance |
 | Anthropic, "Claude's new constitution" | 一次資料（解説） | https://www.anthropic.com/news/claude-new-constitution |
 
-**いずれも未読。**F01 と同旨の指摘がないかの確認が最優先事項。
+**2026-08-24 に全件確認済み。** 詳細は `verification-log.md`。
+
+### 確認結果の要点
+
+- Oxford の 2 件は**同一論考の短版・長版**である。
+  著者は Yuval Shany（Institute for Ethics in AI）、長版は Noa Mor, Renana Keydar,
+  Omri Abend との共著。Tech Policy Press にも掲載。
+- 論点は**人権法の観点**。2026 年版が 2023 年版にあった世界人権宣言への言及を落とし、
+  「human rights」の語を一切用いていないことへの批判。
+- **3 件とも、多エージェント設定・オーケストレーター・サブエージェントに一切言及がない。**
+- 責任帰属に触れるのは Shany et al. のみ。ただし機序が F01 と逆（F01 §5 R4 参照）。
+- Anthropic 告知記事に、エージェント環境向け補足指針の言及は**ない**（F01 §5 R3）。
+
+### 付随して判明した事実（Oxford の記述による。**独自検証はしていない**）
+
+憲法公布の数週間後に、当該文書の規範的外縁が現実に試された事例が 2 件あるとされる。
+
+1. 2026-03-04、米国 Department of War が Anthropic を supply-chain risk に指定。
+   大規模国内監視および自律型致死兵器システムへの Claude 利用を Anthropic が拒否したため。
+   DoW は代替として OpenAI と契約。
+2. Claude が米軍により、イラン戦争における目標選定に使用されたと広く報じられている。
+   ある誤爆（イランの学校への攻撃）に、旧版地図への依存を通じて AI が寄与した可能性が
+   指摘されている（**確証はないと Oxford 自身が明記**）。
+
+本リポジトリの主張とは独立の事実であるが、**当該文書が既に高リスク環境で
+試されている**ことを示す文脈情報として記録する。
+
+## 5. 実務者文献における既知性（重要）
+
+企業導入の文脈では、**文脈が劣化したサブエージェントによる事故は既知の運用課題**である。
+検索（2026-08-24）で、orchestrator の責務、accountability gap、
+最小権限設計、stale context によるリスクを扱う実務記事が多数確認された。
+
+- <https://engini.ai/blog/multi-agent-ai-orchestration-claude-subagents-enterprise-governance>
+- <https://pub.towardsai.net/claude-code-subagents-and-main-agent-coordination-a-complete-guide-to-ai-agent-delegation-patterns-a4f88ae8f46c>
+- <https://ccaf-exam.guide/docs/03-multi-agent-orchestration/>
+
+**これは F01 の新規性を部分的に削る。**
+F01 が主張するのは現象の発見ではなく、
+**当該統治文書がその現象を規律していないこと**である。この限定を崩してはならない。
 
 ## 3. 周辺（未読・要検討）
 

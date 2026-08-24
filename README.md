@@ -46,7 +46,10 @@ Anthropic『Claude's Constitution』(2026年1月21日公開) の**構造分析**
 | `RESTATEMENT` | **既知**。先行を明示のうえ、方法として使用する |
 | `REFUTED` | 先行があった、または誤りと判明した |
 
-現時点で `VERIFIED` は**ゼロ件**である。
+現況: `VERIFIED` 1 件（F01）、`CANDIDATE` 3 件、`RESTATEMENT` 1 件、`REFUTED` 0 件。
+
+F01 は 2026-08-24 に昇格した。ただし**新規性は「現象の発見」ではなく
+「当該文書がそれを規律していないこと」に限られる**（`docs/01_findings/README.md`）。
 
 ## 進め方
 
@@ -55,6 +58,9 @@ Anthropic『Claude's Constitution』(2026年1月21日公開) の**構造分析**
 3. `VERIFIED` のものだけを `docs/04_deliverables/` の issue 草案に落とす
 4. issue 投稿は **Hanamura 本人が行う**
 5. 短報化・Zenodo 登録は issue の反応を見てから判断する
+
+F01 は 4 の段階にある。草案は
+[`docs/04_deliverables/issue-F01-draft.md`](docs/04_deliverables/issue-F01-draft.md)。
 
 ## 版に関する注意
 

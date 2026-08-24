@@ -40,3 +40,42 @@ Anthropic『Claude's Constitution』(2026-01-21) を、憲法学・契約理論�
 - issue 投稿・Zenodo 登録は **Hanamura 本人が行う**
 - 外部提出は F01 が `VERIFIED` に到達してから
 - 引用は必ず版を特定する
+
+---
+
+## 2026-08-24（第2回）— 既発表分析の確認、F01 昇格
+
+### 実施
+
+Oxford 2 件、BISI レポート、Anthropic 告知記事を確認。実務者文献も検索。
+
+- ox.ac.uk は Cloudflare の JS チャレンジで 403。**ブラウザ経由で全文取得**して解決
+- Oxford の 2 件は**同一論考の短版・長版**だった（Shany 単著 / Shany, Mor, Keydar, Abend 共著）
+- **3 件とも多エージェント設定に一切言及なし**
+- Anthropic 告知記事にエージェント環境向け補助指針の言及なし → R3 解消
+- R1（liability harms 条項）を精査 → 解消。条項は衡量の入力であって帰属規則ではない
+- Shany et al. の accountability gap は**機序が逆** → R4 として記録、解消
+
+**F01 を `VERIFIED` へ昇格。**
+
+### 新規性の範囲が狭まった（重要）
+
+実務者文献では、**文脈劣化したサブエージェントによる事故は既知の運用課題**である。
+したがって F01 が主張できるのは現象の発見ではなく、
+**当該統治文書がそれを規律していないこと**のみ。
+issue 草案・inventory・findings index の三箇所にこの限定を明記した。
+
+### 付随して判明（Oxford の記述による。独自検証なし）
+
+- 2026-03-04、米 Department of War が Anthropic を supply-chain risk に指定
+  （大規模国内監視・LAWS への Claude 利用拒否を理由に）。DoW は OpenAI と契約
+- Claude がイラン戦争の目標選定に使用されたと報道。誤爆への寄与も指摘（確証なしと明記）
+
+当該文書が既に高リスク環境で試されていることを示す文脈情報として `inventory.md` に記録。
+
+### 次にやること
+
+- [ ] `inventory.md` §3 の arXiv 5 件の走査
+- [ ] Tech Policy Press 掲載版の確認
+- [ ] F02 / F03 の検証（未着手）
+- [ ] issue 投稿の判断（Hanamura）
