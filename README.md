@@ -46,10 +46,17 @@ Anthropic『Claude's Constitution』(2026年1月21日公開) の**構造分析**
 | `RESTATEMENT` | **既知**。先行を明示のうえ、方法として使用する |
 | `REFUTED` | 先行があった、または誤りと判明した |
 
-現況: `VERIFIED` 1 件（F01）、`CANDIDATE` 3 件、`RESTATEMENT` 1 件、`REFUTED` 0 件。
+現況: `VERIFIED` 3 件（F01 / F02 / F03）、`CANDIDATE` 1 件、`RESTATEMENT` 1 件、`REFUTED` 0 件。
 
-F01 は 2026-08-24 に昇格した。ただし**新規性は「現象の発見」ではなく
-「当該文書がそれを規律していないこと」に限られる**（`docs/01_findings/README.md`）。
+いずれも**新規性は「現象の発見」ではなく「当該文書がそれを規律していないこと」に限られる**
+（`docs/01_findings/README.md`）。
+
+### 寄与先
+
+Lawfare / Working Group on AI Constitutionalism の研究アジェンダは、4 つの strand を
+提示したうえで**研究設問を意図的に空欄にし、寄与を招請している**。
+本リポジトリの知見 4 件は、いずれもそのアジェンダが未着手と明記する論点に対応する
+（`docs/03_prior_art/inventory.md` §6）。
 
 ## 進め方
 

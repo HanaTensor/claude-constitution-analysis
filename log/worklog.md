@@ -116,3 +116,53 @@ issue 草案・inventory・findings index の三箇所にこの限定を明記�
 - [ ] MAST 14 モードの内訳
 - [ ] F02 / F03 の検証（未着手）
 - [ ] issue 投稿の判断（Hanamura）
+
+---
+
+## 2026-08-24（第4回）— 残り3点を完了。F02 / F03 昇格
+
+### 片付いたこと
+
+1. **"Consent as a runtime safety constraint for LLM agents"** — その表題の文献は特定できず。
+   隣接文献（AgentSpec / Consent Integrity）はいずれも同意の完全性が対象で、責任帰属ではない
+2. **MAST 14 モード** — 全件確認。最近接は FM-1.4 Loss of conversation history と
+   FM-2.4 Information withholding。オーケストレーター→サブエージェントの文脈劣化は名指しなし
+3. **F02 / F03 の検証** — 両方 `VERIFIED` へ昇格
+
+### F02 で自分の誤りを見つけた（重要）
+
+起票時に「報告義務のみが条件付き」と書いていたが、**機械照合の結果 3 項目あった**。
+印象で通読して書いたのが原因。
+
+精査により主張は再構成できた。むしろ精度が上がった——
+**求められなくても遂行可能な義務でありながら条件節を負うのは相互報告義務のみ**、
+そして直前項目「加担しない」が無条件であることとの対比が本質。
+**受動的不関与は義務、能動的報告は任意。**
+
+教訓を F02 §6 と findings index に残した。**量的主張は必ず機械照合を根拠にすること。**
+
+### F03 は一次資料で固めた
+
+Frontier Safety Roadmap の 90 日同期条項を逐語取得。
+あわせて **Roadmap も版間の移行措置を規定していない**ことを確認。
+これで F03 の事実的前提が一次資料で固まった。
+
+### 最重要の発見 — 寄与先が存在した
+
+**AI 立憲主義（AI constitutionalism）の研究アジェンダが実在する。**
+Lawfare 2 本、Nick Caputo "Model Constitution"（Johns Hopkins, 2026年8月創刊）。
+Working Group on AI Constitutionalism が 4 strand を提示し、
+**研究設問を意図的に空欄にして寄与を招請している。**
+
+そして本リポジトリの 4 件すべてが、アジェンダが未着手と明記する論点に対応した。
+
+- F03 → Strand Two（Process and Authority）
+- F01 / F02 → Strand Four（Enforcement）
+- F05 → Strand Two / Four（解釈権限・裁定機構）
+
+これは新規性の根拠ではなく、**届け先が存在することの根拠**である。
+
+### 次の段階（Hanamura の指示）
+
+公開 → PDF 化 → X 告知。**英語版を作る。**
+現状のリポジトリは日本語なので、英語化が前提作業になる。

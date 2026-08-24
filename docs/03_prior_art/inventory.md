@@ -112,3 +112,38 @@ F01 が主張できるのは、
 いずれも 2026-08-24 の Web 検索 4 件のみに基づく。
 紙媒体、日本語文献、未索引のワーキングペーパーは未走査。
 **これらを新規性の根拠にしてはならない。**
+
+## 6. AI 立憲主義（AI constitutionalism）の研究アジェンダ
+
+**2026-08-24 に判明。本プロジェクトにとって最も重要な文脈情報。**
+
+当該領域には、既に形成途上の研究コミュニティが存在する。
+
+| 出典 | 内容 |
+|---|---|
+| Lawfare, "A New Research Agenda for AI Constitutionalism"（Working Group on AI Constitutionalism） | AI 憲法は少数の開発者の専有物であるべきでないとし、4 つの strand を提示。**研究設問は意図的に空欄**とし、学術的寄与を招請している |
+| Lawfare, "Who Writes the AI Constitution?" | 第一修正の観点。AI 憲法は保護された言論であり、政府規制に憲法上の障害があるとする |
+| Nick Caputo, "Model Constitution"（Substack, 2026年8月創刊） | "Toward a Philadelphia Project for AI"。Johns Hopkins School of Government and Policy。Claude's Constitution と OpenAI Model Spec を「憲法テキスト」として扱う |
+
+### 4 つの strand
+
+1. **Values** — どの価値が入るべきか、価値衝突はどう解決されるか
+2. **Process and Authority** — 価値はどう正統に選択されるか、何が私企業を拘束するか
+3. **Technical** — 価値はどう設計・検証されるか
+4. **Enforcement** — 逸脱の検出と対応
+
+### 本リポジトリの知見との対応（重要）
+
+研究アジェンダが**明示的に未着手としている**領域に、本リポジトリの知見が入る。
+
+| 未着手と明記されている論点 | 本リポジトリ |
+|---|---|
+| 改正手続・版管理・経過措置 | **F03** → Strand Two |
+| 責任帰属・多エージェント委任 | **F01** → Strand Four |
+| インスタンス間の相互監視・報告義務 | **F02** → Strand Four |
+| 違憲審査・解釈権限（「衝突がどう裁定されるかの機構を提案していない」と自認） | **F05** → Strand Two / Four |
+
+**4 件すべてが、アジェンダの空白に対応している。**
+これは新規性の根拠ではなく、**寄与先が存在することの根拠**である。
+アジェンダ側が設問を空欄にしている以上、「まだ誰も答えていない」ことは
+「誰も問うていない」ことを意味しない。
