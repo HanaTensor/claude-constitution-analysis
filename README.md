@@ -52,7 +52,7 @@ Keeping novelty claims separate from restatement is the governing principle here
 | `RESTATEMENT` | **Known.** Cited to prior work and used as method |
 | `REFUTED` | Prior art found, or the claim turned out to be wrong |
 
-Current state: `VERIFIED` 3 (F01, F02, F03) · `CANDIDATE` 3 (F05, F06, F07) · `RESTATEMENT` 1 · `REFUTED` 0.
+Current state: `VERIFIED` 5 (F01, F02, F03, F06, F07) · `CANDIDATE` 1 (F05) · `RESTATEMENT` 1 · `REFUTED` 0.
 
 In every case the novelty claimed is **not the discovery of a phenomenon** but the
 observation that **this document does not regulate it**. See

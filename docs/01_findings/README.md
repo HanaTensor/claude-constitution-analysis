@@ -10,13 +10,13 @@ That is the governing principle of this repository.
 | [F03](F03-no-transition-provision.md) | No transitional provision answers the 90-day synchronisation commitment | **`VERIFIED`** | Defect |
 | [F04](F04-nonconvexity-fourfold.md) | The non-tradeability of hard constraints is one fact described four ways | `RESTATEMENT` | Method |
 | [F05](F05-execution-vs-norm-hierarchy.md) | The top of the execution hierarchy is not the top of the normative hierarchy | `CANDIDATE` | Descriptive |
-| [F06](F06-claude-directing-humans.md) | The principal roles run one way: no role for the humans Claude directs or evaluates | `CANDIDATE` | Unregulated territory |
-| [F07](F07-aggregation-over-decision-subjects.md) | Policy-level reasoning aggregates over senders, not over the people decided about | `CANDIDATE` | Unregulated territory |
+| [F06](F06-claude-directing-humans.md) | No operator-proof floor for the people Claude directs or evaluates outside the conversation | **`VERIFIED`** | Unregulated territory |
+| [F07](F07-aggregation-over-decision-subjects.md) | Duplicated errors are recognised as a reason for caution, not as harm concentrated on the people decided about | **`VERIFIED`** | Unregulated territory |
 
 ## Current state
 
-- `VERIFIED` — **3** (F01, F02, F03; all promoted 2026-08-24)
-- `CANDIDATE` — 3 (F05, a descriptive observation; F06 and F07, raised 2026-11-05 from `dialogues/D01-allocation-under-ai-management/`)
+- `VERIFIED` — **5** (F01, F02, F03 promoted 2026-08-24; F06, F07 promoted 2026-11-05 after narrowing)
+- `CANDIDATE` — 1 (F05, a descriptive observation)
 - `RESTATEMENT` — 1
 - `REFUTED` — 0
 

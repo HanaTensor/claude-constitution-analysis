@@ -29,7 +29,7 @@ full paper, eight years old.**
 |---|---|
 | [Oxford, "In Claude We Trust? Evaluating the New Constitution"](https://www.ox.ac.uk/news/2026-03-27-expert-comment-claude-we-trust-evaluating-new-constitution) (Shany, 27 Mar 2026) | Expert comment |
 | [Oxford Ethics in AI, "Claude's new Constitution: two evaluative continua"](https://www.oxford-aiethics.ox.ac.uk/blog/claudes-new-constitution-two-evaluative-continua) | Blog; the long form of the above, with Mor, Keydar, and Abend |
-| [Shany et al., "In Claude We Trust? Stress Testing the AI Model's Constitution"](https://www.techpolicy.press/in-claude-we-trust-stress-testing-the-ai-models-constitution/) | **Tech Policy Press version; textually the same argument** |
+| [Shany, "In Claude We Trust? Stress Testing the AI Model's Constitution"](https://www.techpolicy.press/in-claude-we-trust-stress-testing-the-ai-models-constitution/) (sole author; corrected 2026-11-05) | **Tech Policy Press version; textually the same argument** |
 | [BISI, "Claude's New Constitution: AI Alignment, Ethics, and the Future of Model Governance"](https://bisi.org.uk/reports/claudes-new-constitution-ai-alignment-ethics-and-the-future-of-model-governance) | Report |
 | [Anthropic, "Claude's new constitution"](https://www.anthropic.com/news/claude-new-constitution) | Primary (announcement) |
 | [arXiv:2604.02912, *Corporations Constitute Intelligence*](https://arxiv.org/abs/2604.02912) | Calls the January 2026 constitution the most comprehensive corporate AI governance document yet released, while criticising the exclusion of military contexts and the absence of democratic deliberation |
@@ -170,3 +170,8 @@ does not mean "no one has asked."
 | Operator-layer rules for employment decisions | Anthropic Usage Policy, High-risk Use Case Requirements (effective 12 Nov 2026) |
 
 Details in `verification-log.md`, entry of 2026-11-05.
+
+Read in full for F06 and F07 (2026-11-05), none equivalent: Zvi Mowshowitz's three-part series (Jan 2026); Nick
+Caputo, *Model Constitution* (six posts, Aug–Oct 2026); Lawfare, "A New Research Agenda for AI Constitutionalism" and
+"Who Writes the AI Constitution?" (McMullan & Frazier, 13 Aug 2026); Frazier, *Yale J. on Reg.* (28 Oct 2026) and
+Appleseed AI (2 Nov 2026); Klaassen & Schroeder, *Lawfare* (9 Apr 2026).
