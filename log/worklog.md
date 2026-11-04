@@ -343,3 +343,22 @@ step 3 drafts only `VERIFIED` findings.
 Re-read the `inventory.md` §2 analyses, Zvi Mowshowitz's series, Caputo's *Model Constitution* and the
 Lawfare Working Group pieces against F06 and F07. Then promote or refute, and only then draft — most
 likely as one combined issue or as an addendum to #8, decided with `channel-assessment.md`.
+
+## 2026-11-05 (third) — F06 and F07 narrowed, verified, and drafted as one issue
+
+### What happened
+
+- An adversarial reviewer, given only the findings and the full text, found provisions both had missed. **F07 was
+  false as written** (md L604 recognises duplicated errors). Both were rewritten to narrower claims, each with a
+  narrowing record (§7).
+- Two agents read the published analyses for criterion 1 (sets A and B). None makes either claim.
+- Both promoted to `VERIFIED`, with limits stated in `verification-log.md`: readings were model-summarised, not
+  line by line; prior-art reads were run against the first statements; one weekly roundup not located.
+- One combined issue drafted: `docs/04_deliverables/issue-F06-F07-draft.md`; paste-ready body in
+  `build/issue-body-F06-F07.md` (5,425 characters). A separate issue, not a comment on #8.
+- Inventory corrected: the Tech Policy Press piece is by Shany alone.
+
+### Next
+
+Hanamura posts, after the on-the-day checks in the draft's checklist. Then record the issue number. Consider the
+channels in `channel-assessment.md` (Lawfare Working Group; *Model Constitution*; Tech Policy Press; X).

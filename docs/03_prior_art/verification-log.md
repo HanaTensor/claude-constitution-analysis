@@ -206,3 +206,62 @@ Raised as `CANDIDATE` from `dialogues/D01-allocation-under-ai-management/`. Neit
 4. Provisions identical across known versions — met.
 
 Both stay `CANDIDATE`. No deliverable is drafted until criterion 1 is met.
+
+### Adversarial review (same day) — both claims narrowed
+
+An independent reviewer, given only the findings and the full text, tried to refute them from the document itself.
+
+- **F06** survived only narrowed. Missed: L263 (operator instructions yield to significant third-party harm), L364
+  (calibration), L399, L407 (risks "outside of the conversation"), L433, L440 (privacy; fair treatment), L529.
+  Now claimed: no operator-proof floor, comparable to the user defaults (L265–274), for people Claude evaluates or
+  directs outside the conversation, covering reasons available to them, uncertainty communicated to them, and
+  contest.
+- **F07** was **false as written**: L604 recognises errors "duplicated across conversations". Also missed: L339 and
+  L469 (the cross-deployment view and independent safeguards are Anthropic's and operators'), L418, L440–441, L364.
+  Now claimed: duplicated errors are recognised only as a reason for caution (L604–607), homogenisation only for
+  views (L383), and the document makes no commitment about outcome concentration on the side to which it assigns
+  the cross-deployment view.
+- Both findings now carry a narrowing record (F06 §7, F07 §7). All added provisions checked in both versions.
+
+### Criterion 1, set A — read
+
+Read in full by a separate agent (WebFetch summaries over the whole text, not verbatim): Shany, Oxford news
+(27 Mar 2026); Mor, Abend, Keydar & Shany, Oxford Ethics in AI blog (13 Mar 2026); Shany, Tech Policy Press
+(25 Mar 2026 — **sole author**, not "et al." as `inventory.md` §2 had it); Fattahi, BISI (22 Jan 2026); Abiri,
+*Corporations Constitute Intelligence* (arXiv:2604.02912 and *California Law Review* online). **None makes F06 or F07,
+or a close neighbour.** Nearest: Shany's human-rights treatment of non-user victims (targets, surveillance subjects),
+and the Oxford blog's general remark that attention to humans and their interests is deficient.
+
+### Criterion 1, set B — read
+
+Read in full by a second agent (same method): Zvi Mowshowitz, the three-part series (26–28 Jan 2026); Nick Caputo,
+*Model Constitution*, all six posts (19 Aug – 21 Oct 2026); Frazier for the Working Group, *Lawfare*, "A New Research
+Agenda for AI Constitutionalism"; McMullan & Frazier, *Lawfare*, "Who Writes the AI Constitution?" (13 Aug 2026);
+Frazier, *Yale J. on Reg.* Notice & Comment (28 Oct 2026); Frazier, Appleseed AI (2 Nov 2026); and, by targeted
+search, Klaassen & Schroeder (*Lawfare*, 9 Apr 2026). Searches pairing the constitution with "algorithmic
+monoculture", "outcome homogenization", hiring, screening, or algorithmic management found nothing further.
+
+**None makes F06 or F07.** Distant neighbours: for F06, Caputo (21 Oct 2026) asks what happens when human rights are
+affected as an externality of agent interactions, and Klaassen & Schroeder name institutional decisions about
+students and patients; for F07, Frazier (Appleseed) and McMullan & Frazier raise a monoculture of *values* across labs.
+
+### Determination — F06 and F07 promoted to `VERIFIED`
+
+| Criterion | F06 | F07 |
+|---|---|---|
+| 1. Published analyses read in full; none equivalent | met (sets A and B) | met (sets A and B) |
+| 2. Difference from the general case stated | met (§4) | met (§4) |
+| 3. Objections enumerated and answered | met (§5), after adversarial review | met (§5), after adversarial review |
+| 4. Provisions identical across versions | met | met |
+
+### Methodological limits (stated)
+
+- Both reading agents used WebFetch, which passes pages through a summarising model. "Read in full" means the
+  whole text was processed and targeted follow-up questions were asked where something looked close; it does
+  **not** mean the raw text was read line by line. This is weaker than the browser reading used for Oxford on
+  2026-08-24.
+- The prior-art reads were run against the **first** statements of F06 and F07. The narrowed claims are strictly
+  narrower, so a source that makes neither first statement is unlikely to make a narrowed one; but no re-read was
+  run against the narrowed text.
+- Not read: Zvi Mowshowitz's weekly roundup "AI #153: Living Documents" (not a dedicated analysis; not located).
+- The adversarial review was a single reviewer working from the text. It found real omissions; others may remain.
