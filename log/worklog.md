@@ -393,3 +393,11 @@ the JST date and notes the UTC date where GitHub's display would otherwise look 
 
 Whether to take F06/F07 to the attended channels in `channel-assessment.md` (Lawfare Working Group; *Model
 Constitution*; Tech Policy Press). Open questions OQ1–OQ5 in `dialogues/open-questions.md` remain for later dialogues.
+
+## 2026-11-05 (sixth) — Briefing for visitors
+
+At Hanamura's request, a reader's introduction to both letters was added under `briefing/`, in two parts:
+`two-letters-to-claudes-constitution.en` and `.ja`, each as Word and PDF. It explains what #8 and #12 claim, the
+background of #12 (dialogue D01), how the claims were tested and narrowed, and every source searched, with limits.
+The top-level README now points new visitors there first. The Japanese body is set in Mincho, headings in Gothic.
+Build scripts are in `briefing/src/`.
