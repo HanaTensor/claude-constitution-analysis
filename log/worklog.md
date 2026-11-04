@@ -362,3 +362,42 @@ likely as one combined issue or as an addendum to #8, decided with `channel-asse
 
 Hanamura posts, after the on-the-day checks in the draft's checklist. Then record the issue number. Consider the
 channels in `channel-assessment.md` (Lawfare Working Group; *Model Constitution*; Tech Policy Press; X).
+
+## 2026-11-05 (fourth) — F06 and F07 filed as #12
+
+Hanamura filed the combined issue as
+[anthropics/claude-constitution#12](https://github.com/anthropics/claude-constitution/issues/12), title "Two gaps when
+Claude evaluates people who are not in the conversation". On-the-day checks passed (upstream unchanged; Usage Policy
+wording as described). The filed text, with paragraphs joined onto single lines for GitHub's rendering and no change
+of wording, is `build/issue-body-F06-F07.md`.
+
+As with #8: a public, timestamped record, not delivery. Nothing is sequenced behind a reply. The open decision is
+whether to take F06 and F07 to the channels in `channel-assessment.md`.
+
+## 2026-11-05 (fifth) — Announced on X
+
+Five-post thread, English, 280-character tier: https://x.com/HanaTensor/status/2118126569210470534. Links only in
+the last post; images in posts 1, 2 and 4 (kept in `docs/04_deliverables/x-images-F06-F07/`). Draft and counts:
+`docs/04_deliverables/x-announcement-F06-F07-draft.md`.
+
+A dating note: #12 was filed at about 08:36 JST on 5 November, which GitHub shows as 4 November (UTC). The record uses
+the JST date and notes the UTC date where GitHub's display would otherwise look inconsistent.
+
+### State at close of day
+
+- Findings: `VERIFIED` 5 (F01, F02, F03, F06, F07) · `CANDIDATE` 1 (F05) · `RESTATEMENT` 1.
+- Filed upstream: #8 (F01), #12 (F06 + F07). Announced on X: both.
+- `dialogues/D01` recorded in English and Japanese.
+
+### Open, and a decision rather than a task
+
+Whether to take F06/F07 to the attended channels in `channel-assessment.md` (Lawfare Working Group; *Model
+Constitution*; Tech Policy Press). Open questions OQ1–OQ5 in `dialogues/open-questions.md` remain for later dialogues.
+
+## 2026-11-05 (sixth) — Briefing for visitors
+
+At Hanamura's request, a reader's introduction to both letters was added under `briefing/`, in two parts:
+`two-letters-to-claudes-constitution.en` and `.ja`, each as Word and PDF. It explains what #8 and #12 claim, the
+background of #12 (dialogue D01), how the claims were tested and narrowed, and every source searched, with limits.
+The top-level README now points new visitors there first. The Japanese body is set in Mincho, headings in Gothic.
+Build scripts are in `briefing/src/`.

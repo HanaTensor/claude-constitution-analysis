@@ -12,4 +12,4 @@ English: [open-questions.md](open-questions.md)
 | OQ3 | 人の癖、すなわち負荷の下でのぶれの方向を、測定そのものが強制や監視にならずに測るにはどうするか | D01 §4.7、§6.4 | 未決 |
 | OQ4 | 資源を増やす仕事の効果が何年も後に現れるとき、その功績をどう帰属させるか | D01 §7.5〜§7.6 | 未決 |
 | OQ5 | AI が経営する企業で、マネーと人材は経営資源としてどう循環するのか。主たる配分者が AI である企業を、どのような会計が記述するのか | D01（主題）、未着手 | 未決 |
-| OQ6 | Claude's Constitution は、Claude が人の事実上の principal（指示・評価・仕事の割り振り）になる場合と、同じモデルを使う多数の operator をまたいで誤りが集積する場合を規律しているか | D01 §2.2(a)、§3.2 | 2026-11-05 に **F06**・**F07** として起こし、同日に狭めて `VERIFIED` に昇格。issue の下書きあり（`docs/04_deliverables/issue-F06-F07-draft.md`） |
+| OQ6 | Claude's Constitution は、Claude が人の事実上の principal（指示・評価・仕事の割り振り）になる場合と、同じモデルを使う多数の operator をまたいで誤りが集積する場合を規律しているか | D01 §2.2(a)、§3.2 | 2026-11-05 に **F06**・**F07** として起こし、同日に狭めて `VERIFIED` に昇格。[anthropics/claude-constitution#12](https://github.com/anthropics/claude-constitution/issues/12) として投稿 |

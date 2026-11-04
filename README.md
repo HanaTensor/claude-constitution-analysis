@@ -12,6 +12,11 @@ contract theory, agency theory, and linear response theory — in order to locat
 - Analysis in this repository: CC BY 4.0 (see `LICENSE`). `sources/` reproduces the
   original document, which is CC0.
 
+> **New here? Start with the [briefing](briefing/)** — a short two-part introduction (English and Japanese, PDF and
+> Word) to both letters filed so far, [#8](https://github.com/anthropics/claude-constitution/issues/8) and
+> [#12](https://github.com/anthropics/claude-constitution/issues/12): what they claim, how they arose, and what was
+> checked.
+
 ## The central claim
 
 This repository makes **one** central claim.
@@ -41,6 +46,7 @@ Keeping novelty claims separate from restatement is the governing principle here
 | `sources/` | The original document, versioned, with provenance and hashes |
 | `tools/` | Fetch and comparison scripts (for reproduction) |
 | `log/worklog.md` | Work log |
+| `briefing/` | **Start here.** Reader's introduction to #8 and #12, in English and Japanese (PDF and Word) |
 | `dialogues/` | Dialogue records **outside the scope** of `docs/00_scope.md` (English and Japanese, briefing and reference). Not part of the findings |
 
 ## Status vocabulary
