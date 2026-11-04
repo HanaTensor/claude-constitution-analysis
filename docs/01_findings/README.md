@@ -10,11 +10,13 @@ That is the governing principle of this repository.
 | [F03](F03-no-transition-provision.md) | No transitional provision answers the 90-day synchronisation commitment | **`VERIFIED`** | Defect |
 | [F04](F04-nonconvexity-fourfold.md) | The non-tradeability of hard constraints is one fact described four ways | `RESTATEMENT` | Method |
 | [F05](F05-execution-vs-norm-hierarchy.md) | The top of the execution hierarchy is not the top of the normative hierarchy | `CANDIDATE` | Descriptive |
+| [F06](F06-claude-directing-humans.md) | The principal roles run one way: no role for the humans Claude directs or evaluates | `CANDIDATE` | Unregulated territory |
+| [F07](F07-aggregation-over-decision-subjects.md) | Policy-level reasoning aggregates over senders, not over the people decided about | `CANDIDATE` | Unregulated territory |
 
 ## Current state
 
 - `VERIFIED` — **3** (F01, F02, F03; all promoted 2026-08-24)
-- `CANDIDATE` — 1 (F05, a descriptive observation)
+- `CANDIDATE` — 3 (F05, a descriptive observation; F06 and F07, raised 2026-11-05 from `dialogues/D01-allocation-under-ai-management/`)
 - `RESTATEMENT` — 1
 - `REFUTED` — 0
 
@@ -40,6 +42,8 @@ that **this document does not regulate it**.
   responsibility — is already argued in arXiv:2510.14008.
 - The operational hazard behind F01 is routine in practitioner guidance.
 - The research area behind F02 (agents reporting on agents) is active.
+- The phenomenon behind F06 (algorithmic management) and behind F07 (algorithmic monoculture,
+  outcome homogenisation) is established; F07's closest reading of this document is Varma (2 Nov 2026).
 
 Do not let the claim widen past the text.
 

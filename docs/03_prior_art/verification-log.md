@@ -177,3 +177,32 @@ send this.**
 - [ ] Comparison: equivalent provisions in OpenAI's Model Spec (reporting duty;
       versioning)
 - [ ] Full text of arXiv:2601.00360 (abstract only so far)
+
+---
+
+## 2026-11-05 — F06 and F07 raised; first sweep
+
+Raised as `CANDIDATE` from `dialogues/D01-allocation-under-ai-management/`. Neither is promoted.
+
+| Work | Result |
+|---|---|
+| Upstream `anthropics/claude-constitution` re-cloned | Last commit 2026-01-28; `20260120-constitution.md` SHA-256 **matches** `sources/PROVENANCE.md`. The live web page shows no version or changelog |
+| Provisions cited by F06 and F07 checked in both pinned versions | **Present and identical** (md and 26-02.02a text; ten phrases checked) |
+| Every quotation in F06 and F07 matched to its md line | All match |
+| Frazier, *Lawfare*, 21 Jan 2026 | Protections vary by position in the stack; nothing on persons outside it or on Claude directing people |
+| Klaassen & Schroeder, *Lawfare*, 9 Apr 2026 | Affected third parties named (patients, students) as an institutional question; no analysis of Claude evaluating people; dependence on shared workflows mentioned, correlation not analysed |
+| GRDprocess structural analysis, 14 Mar 2026 (read in two parts) | "Macro non-observable at micro"; "multi-agent, no composition rule". Nothing on persons screened or managed, or on correlated outcomes across operators |
+| Varma, Substack, 2 Nov 2026 | Monoculture of instances defeats the "many hands" check. **Closest to F07**, different object: correlated behaviour as a check on power, not correlated decisions about third parties |
+| Bommasani et al. 2022; Kleinberg & Raghavan 2021; Peng & Garg | The phenomenon behind F07 is established |
+| Anthropic Usage Policy, High-risk Use Case Requirements (effective 12 Nov 2026) | Employment area covers screening, ranking, hiring, performance evaluation; requires qualified human review and disclosure. Operator obligation — the basis of F06 R1 |
+
+### Status against the promotion criteria
+
+1. Published analyses read in full — **not met.** The analyses in `inventory.md` §2, Zvi Mowshowitz's
+   series, Nick Caputo's *Model Constitution*, and the Lawfare Working Group pieces have not been re-read
+   for these two claims.
+2. Difference from the general case stated — met (F06 §4, F07 §4).
+3. Objections enumerated and answered — met (F06 §5, F07 §5).
+4. Provisions identical across known versions — met.
+
+Both stay `CANDIDATE`. No deliverable is drafted until criterion 1 is met.
