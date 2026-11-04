@@ -2,7 +2,11 @@
 
 **Destination**: https://github.com/anthropics/claude-constitution/issues
 **Poster**: Satoshi Hanamura, in person
-**State**: **DRAFT — not posted.** Paste-ready body: `build/issue-body-F06-F07.md` (first line is the title; the rest is the body).
+**State**: **POSTED 2026-11-05** as
+[anthropics/claude-constitution#12](https://github.com/anthropics/claude-constitution/issues/12).
+The filed text is `build/issue-body-F06-F07.md` (first line is the title). It differs from the draft below only in
+layout: each paragraph was joined onto one line, because GitHub renders single line breaks in issues literally,
+and the closing rule was dropped. No wording changed.
 
 > **Expectations.** See [`channel-assessment.md`](channel-assessment.md). The upstream repository has had no
 > commit since 2026-01-28 and no Anthropic comment on any external issue. This is filed as a public,
@@ -114,7 +118,7 @@ https://github.com/HanaTensor/claude-constitution-analysis (findings F06 and F07
 - [x] Published analyses swept (sets A and B, `verification-log.md`, 2026-11-05)
 - [x] General forms cited (algorithmic management; Bommasani et al.; Kleinberg & Raghavan)
 - [x] Nearest readings (Varma; Frazier) distinguished in the body
-- [ ] **On the day:** re-check that the upstream file is unchanged (`sha256sum` against `sources/PROVENANCE.md`)
-- [ ] **On the day:** confirm the Usage Policy wording (effective 12 Nov 2026) is still as described
+- [x] **On the day:** upstream unchanged — last commit 2026-01-28, SHA-256 `251440a7…` matches `sources/PROVENANCE.md`
+- [x] **On the day:** Usage Policy employment requirements checked the same morning (review; disclosure)
 - [x] Body length: 5,425 characters (`wc -m`), against ~4,200 for #8. The paste-ready body is `build/issue-body-F06-F07.md`
-- [ ] After posting: record the issue number here and in `log/worklog.md`
+- [x] Recorded: #12, here and in `log/worklog.md`

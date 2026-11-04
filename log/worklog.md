@@ -362,3 +362,14 @@ likely as one combined issue or as an addendum to #8, decided with `channel-asse
 
 Hanamura posts, after the on-the-day checks in the draft's checklist. Then record the issue number. Consider the
 channels in `channel-assessment.md` (Lawfare Working Group; *Model Constitution*; Tech Policy Press; X).
+
+## 2026-11-05 (fourth) — F06 and F07 filed as #12
+
+Hanamura filed the combined issue as
+[anthropics/claude-constitution#12](https://github.com/anthropics/claude-constitution/issues/12), title "Two gaps when
+Claude evaluates people who are not in the conversation". On-the-day checks passed (upstream unchanged; Usage Policy
+wording as described). The filed text, with paragraphs joined onto single lines for GitHub's rendering and no change
+of wording, is `build/issue-body-F06-F07.md`.
+
+As with #8: a public, timestamped record, not delivery. Nothing is sequenced behind a reply. The open decision is
+whether to take F06 and F07 to the channels in `channel-assessment.md`.

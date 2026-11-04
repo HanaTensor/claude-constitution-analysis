@@ -6,6 +6,7 @@
 | **Kind** | Unregulated territory |
 | **Versions** | 20260120 and 26-02.02a — **all provisions cited are identical across the two** |
 | **Raised** | 2026-11-05, from `dialogues/D01-allocation-under-ai-management/` (§2.2, §3.2) |
+| **Filed** | [anthropics/claude-constitution#12](https://github.com/anthropics/claude-constitution/issues/12), 2026-11-05, together with F07 |
 | **Narrowed** | 2026-11-05, after adversarial review (§7). The first statement overclaimed |
 
 ---
