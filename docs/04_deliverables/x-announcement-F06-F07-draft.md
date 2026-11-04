@@ -1,7 +1,12 @@
 # Draft X announcement — F06 and F07 (#12)
 
 **Poster**: Satoshi Hanamura (@HanaTensor), in person.
-**State**: draft.
+**State**: **POSTED 2026-11-05 (JST)**, all five parts as a thread. Thread head:
+https://x.com/HanaTensor/status/2118126569210470534
+
+Images, as posted: `x-images-F06-F07/post1-issue-title.png` (crop of the issue page), `post2-gap1-table.png`,
+`post4-gap2-table.png` (rendered from `x-images-F06-F07/tables.html`). Posts 3 and 5 carried no image; post 5's issue
+link produced GitHub's own preview card.
 
 A five-post thread for the 280-character tier. Counts are measured with X's weighting (`tools/count_post_chars.py`
 treats every character as 1; this draft was also checked with X's weighted rules, under which some symbols such as

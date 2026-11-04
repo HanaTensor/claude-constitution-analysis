@@ -2,7 +2,7 @@
 
 **Destination**: https://github.com/anthropics/claude-constitution/issues
 **Poster**: Satoshi Hanamura, in person
-**State**: **POSTED 2026-11-05** as
+**State**: **POSTED 2026-11-05 JST (2026-11-04 UTC, as GitHub displays it)** as
 [anthropics/claude-constitution#12](https://github.com/anthropics/claude-constitution/issues/12).
 The filed text is `build/issue-body-F06-F07.md` (first line is the title). It differs from the draft below only in
 layout: each paragraph was joined onto one line, because GitHub renders single line breaks in issues literally,

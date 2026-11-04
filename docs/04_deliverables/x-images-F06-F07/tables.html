@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0;background:#fff;font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;color:#1f2328}
+.card{width:1200px;height:675px;box-sizing:border-box;padding:56px 64px;display:flex;flex-direction:column;justify-content:center}
+h2{font-size:34px;margin:0 0 8px}
+.sub{font-size:22px;color:#59636e;margin:0 0 28px}
+table{border-collapse:collapse;font-size:24px;width:100%}
+th,td{border:1px solid #d1d9e0;padding:14px 18px;text-align:left;vertical-align:top}
+th{background:#f6f8fa;font-weight:600}
+td.num{text-align:center;font-variant-numeric:tabular-nums;font-weight:600}
+.big{color:#cf222e}
+.foot{font-size:18px;color:#59636e;margin-top:22px}
+</style></head><body>
+<div class="card" id="f06">
+<h2>Gap 1 — protection follows the interface, not the stake</h2>
+<p class="sub">The same person facing the same evaluation by Claude</p>
+<table><tr><th>How the person meets Claude</th><th>Position under the constitution</th><th>Protection an operator cannot remove</th></tr>
+<tr><td>Chats with Claude</td><td>user</td><td>Six default protections</td></tr>
+<tr><td>In the conversation, not a principal</td><td>non-principal human</td><td class="big">None specific — weighed case by case</td></tr>
+<tr><td>Never meets Claude; CV or work logs are inputs</td><td>subject of an input</td><td class="big">None specific — weighed case by case</td></tr></table>
+<p class="foot">Claude's Constitution (20260120), md L152, L186, L198, L263, L265–274 · github.com/anthropics/claude-constitution/issues/12</p>
+</div>
+<div class="card" id="f07">
+<h2>Gap 2 — shared errors land on the same people</h2>
+<p class="sub">A qualified applicant; each screen wrongly rejects with probability 10%</p>
+<table><tr><th>Applications</th><th>Rejected by all — independent screens</th><th>Rejected by all — every firm uses the same model</th></tr>
+<tr><td class="num">1</td><td class="num">10%</td><td class="num">10%</td></tr>
+<tr><td class="num">5</td><td class="num">0.001%</td><td class="num big">10%</td></tr>
+<tr><td class="num">20</td><td class="num">1 in 10<sup>20</sup></td><td class="num big">10%</td></tr></table>
+<p class="foot">Illustrative: 0.1<sup>k</sup> vs 0.1. Applying more widely protects against independent errors, not shared ones · issue #12</p>
+</div></body></html>

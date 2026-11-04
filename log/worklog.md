@@ -373,3 +373,23 @@ of wording, is `build/issue-body-F06-F07.md`.
 
 As with #8: a public, timestamped record, not delivery. Nothing is sequenced behind a reply. The open decision is
 whether to take F06 and F07 to the channels in `channel-assessment.md`.
+
+## 2026-11-05 (fifth) — Announced on X
+
+Five-post thread, English, 280-character tier: https://x.com/HanaTensor/status/2118126569210470534. Links only in
+the last post; images in posts 1, 2 and 4 (kept in `docs/04_deliverables/x-images-F06-F07/`). Draft and counts:
+`docs/04_deliverables/x-announcement-F06-F07-draft.md`.
+
+A dating note: #12 was filed at about 08:36 JST on 5 November, which GitHub shows as 4 November (UTC). The record uses
+the JST date and notes the UTC date where GitHub's display would otherwise look inconsistent.
+
+### State at close of day
+
+- Findings: `VERIFIED` 5 (F01, F02, F03, F06, F07) · `CANDIDATE` 1 (F05) · `RESTATEMENT` 1.
+- Filed upstream: #8 (F01), #12 (F06 + F07). Announced on X: both.
+- `dialogues/D01` recorded in English and Japanese.
+
+### Open, and a decision rather than a task
+
+Whether to take F06/F07 to the attended channels in `channel-assessment.md` (Lawfare Working Group; *Model
+Constitution*; Tech Policy Press). Open questions OQ1–OQ5 in `dialogues/open-questions.md` remain for later dialogues.
