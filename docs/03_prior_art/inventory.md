@@ -156,3 +156,17 @@ Points the agenda **expressly marks as unaddressed**:
 This is not evidence of novelty. It is evidence that **there is somewhere to send this.**
 Where an agenda has deliberately left its questions blank, "no one has answered yet"
 does not mean "no one has asked."
+
+## 7. Swept 2026-11-05 for F06 and F07
+
+| Topic | Prior work |
+|---|---|
+| Algorithmic management of work | Lee et al. (2015) and the literature since; EU treatments (Platform Work Directive, AI Act) |
+| Algorithmic monoculture | Kleinberg & Raghavan, *PNAS* (2021) |
+| Outcome homogenisation | Bommasani, Creel, Kumar, Jurafsky & Liang, NeurIPS 2022 (arXiv:2211.13972) |
+| Monoculture in matching markets | Peng & Garg (arXiv:2312.09841) |
+| Monoculture of Claude instances vs. the "many hands" provision | Varma, Substack, 2 Nov 2026 |
+| Readings of the document touching third parties | Frazier, *Lawfare* (21 Jan 2026); Klaassen & Schroeder, *Lawfare* (9 Apr 2026); GRDprocess (14 Mar 2026) |
+| Operator-layer rules for employment decisions | Anthropic Usage Policy, High-risk Use Case Requirements (effective 12 Nov 2026) |
+
+Details in `verification-log.md`, entry of 2026-11-05.

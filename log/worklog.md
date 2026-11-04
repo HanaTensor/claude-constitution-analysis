@@ -317,3 +317,29 @@ OQ6 in `dialogues/open-questions.md`: raise two `CANDIDATE` findings for the con
 Claude as the de facto principal of humans, and errors aggregated across operators using the same
 model. Check the current constitution version first (`tools/compare_versions.sh`), then prior art.
 Hanamura posts; nothing is submitted automatically.
+
+## 2026-11-05 (second) — F06 and F07 raised as `CANDIDATE`
+
+### Done
+
+- From D01, two claims about the constitution itself:
+  - **F06** — the principal roles are defined by the flow of instructions *to* Claude; when Claude directs
+    or evaluates humans, the person on the receiving end has no role, and their protection depends on
+    the interface (user, non-principal in a conversation, or subject of a conversational input).
+  - **F07** — policy-level reasoning (md L463, L465) aggregates over the people *sending* a context, and
+    the homogenisation concern (md L383) covers *views*; neither covers correlated decisions about the
+    same people across operators.
+- Upstream re-checked: unchanged since 2026-01-28, hash matches. Provisions identical across both pinned
+  versions. Every quotation matched to its line.
+- First prior-art sweep recorded. Closest: Varma (2 Nov 2026) for F07; Frazier (21 Jan 2026) for F06.
+
+### Not done, deliberately
+
+No issue draft. Criterion 1 (published analyses re-read in full for these claims) is not met. Process
+step 3 drafts only `VERIFIED` findings.
+
+### Next
+
+Re-read the `inventory.md` §2 analyses, Zvi Mowshowitz's series, Caputo's *Model Constitution* and the
+Lawfare Working Group pieces against F06 and F07. Then promote or refute, and only then draft — most
+likely as one combined issue or as an addendum to #8, decided with `channel-assessment.md`.
