@@ -282,3 +282,38 @@ posted, issue filed.
 - A write-up and a Zenodo deposit remain optional and secondary to that.
 - F02 and F03 are `VERIFIED` but unfiled. Whether they warrant separate issues, given the
   channel assessment, is undecided.
+
+## 2026-11-05 — D01 recorded under `dialogues/`
+
+### What happened
+
+A dialogue that began with "can an LLM serve as the first-stage screen when meritocracy is
+introduced?" ran through basic income with a merit tier, an AI-managed economy, recovery
+channels, competition arenas, temple carpentry (*kusegumi*), and back to F01 and F04 via the
+question of why contest solutions fail in production. Hanamura asked for it to be kept for
+reference, in English and Japanese, as a short briefing and a full reference.
+
+### Done
+
+- New top-level `dialogues/`, explicitly outside `docs/00_scope.md`, with its own conventions
+  (`dialogues/README.md`) and a cross-dialogue register of open questions.
+- `dialogues/D01-allocation-under-ai-management/`: briefing (en, ja), reference in five parts and
+  three appendices (en, ja, identical section numbers), and `sim/reproduce.py`, which prints every
+  figure quoted.
+- Appendix A explains Japanese wooden pagodas, Nishioka Tsunekazu and the Hōryūji oral
+  transmissions for readers outside Japan.
+- Appendix B registers each idea as `RESTATEMENT`, `CANDIDATE` or `PREMISE`, sets out who
+  contributed what, and records three corrections (pagoda storeys; audit size 41, not 48; script
+  name).
+
+### Not changed
+
+No finding's status. D01 applies F01's general form and F04's optimisation row; it does not extend
+them.
+
+### Next
+
+OQ6 in `dialogues/open-questions.md`: raise two `CANDIDATE` findings for the constitution itself —
+Claude as the de facto principal of humans, and errors aggregated across operators using the same
+model. Check the current constitution version first (`tools/compare_versions.sh`), then prior art.
+Hanamura posts; nothing is submitted automatically.

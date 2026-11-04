@@ -41,6 +41,7 @@ Keeping novelty claims separate from restatement is the governing principle here
 | `sources/` | The original document, versioned, with provenance and hashes |
 | `tools/` | Fetch and comparison scripts (for reproduction) |
 | `log/worklog.md` | Work log |
+| `dialogues/` | Dialogue records **outside the scope** of `docs/00_scope.md` (English and Japanese, briefing and reference). Not part of the findings |
 
 ## Status vocabulary
 
